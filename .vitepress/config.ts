@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import path from 'path'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -14,4 +15,13 @@ export default defineConfig({
   // Build
   srcDir: 'pages',
   assetsDir: 'public',
+
+  // Vite
+  vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, '..'),
+      }
+    }
+  }
 })

@@ -1,10 +1,3 @@
-<script setup lang="ts">
-import { useData } from 'vitepress'
-
-// https://vitepress.dev/reference/runtime-api#usedata
-const { site, frontmatter } = useData()
-</script>
-
 <template>
   <div v-if="frontmatter.home">
     <h1>{{ site.title }}</h1>
@@ -19,3 +12,16 @@ const { site, frontmatter } = useData()
     <Content />
   </div>
 </template>
+
+<script lang="ts">
+import { defineComponent } from 'vue'
+
+export default defineComponent({})
+</script>
+
+<script setup lang="ts">
+import { useData } from 'vitepress'
+
+// https://vitepress.dev/reference/runtime-api#usedata
+const { site, frontmatter } = useData()
+</script>
