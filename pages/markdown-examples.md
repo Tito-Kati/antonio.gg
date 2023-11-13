@@ -2,6 +2,9 @@
 
 This page demonstrates some of the built-in markdown extensions provided by VitePress.
 
+<Button>Test</Button>
+<Button primary>Primary</Button>
+
 ## Syntax Highlighting
 
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
@@ -83,3 +86,7 @@ This is a details block.
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
+
+<script lang="ts" setup>
+import Button from '../components/Button/Button.vue'
+</script>
