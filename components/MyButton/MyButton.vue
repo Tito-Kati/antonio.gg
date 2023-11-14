@@ -15,8 +15,6 @@ import { defineComponent } from 'vue';
 
 
 export default defineComponent({
-  name: 'my-button',
-
   props: {
     primary: {
       type: Boolean,
