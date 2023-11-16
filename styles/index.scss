@@ -1,5 +1,11 @@
 @tailwind base;
 
+@import 'fonts/aleo';
+@import 'fonts/inter';
+@import 'fonts/source-code-pro';
+
+@import 'base';
+
 @tailwind components;
 
 @tailwind utilities;

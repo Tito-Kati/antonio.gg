@@ -6,6 +6,11 @@ export default {
     './components/**/*.vue'
   ],
   theme: {
+    fontFamily: {
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Aleo', 'serif'],
+      mono: ['Source Code Pro', 'monospace'],
+    },
     extend: {},
   },
   plugins: [],

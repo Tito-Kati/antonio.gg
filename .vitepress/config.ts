@@ -14,7 +14,6 @@ export default defineConfig({
 
   // Build
   srcDir: 'pages',
-  assetsDir: 'public',
 
   // Vite
   vite: {
