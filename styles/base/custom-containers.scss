@@ -1,0 +1,36 @@
+.custom-block {
+  @apply px-6 py-4 my-8;
+
+  &.info {
+    @apply bg-gray-200;
+  }
+
+  &.tip {
+    @apply bg-blue-200;
+  }
+
+  &.warning {
+    @apply bg-yellow-200;
+  }
+
+  &.danger {
+    @apply bg-red-200;
+  }
+
+  &.details {
+    @apply bg-gray-200;
+  }
+
+  :last-child {
+    @apply mb-0;
+  }
+
+  &-title {
+    @apply mt-0;
+  }
+
+  summary + * {
+    @apply mt-4;
+  }
+}
+

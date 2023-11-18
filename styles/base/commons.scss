@@ -39,3 +39,8 @@ a {
     }
   }
 }
+
+hr {
+  // TODO: colors
+  @apply my-8 border-t border-gray-300;
+}

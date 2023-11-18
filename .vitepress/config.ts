@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import {  defineConfig } from 'vitepress'
 import path from 'path'
 
 // https://vitepress.dev/reference/site-config
@@ -14,6 +14,19 @@ export default defineConfig({
 
   // Build
   srcDir: 'pages',
+
+  // Markdown
+  markdown: {
+    // TODO: enable lineNumbers: true,
+
+    container: {
+      tipLabel: 'Consejo',
+      warningLabel: 'Advertencia',
+      dangerLabel: 'Peligro',
+      infoLabel: 'Información',
+      detailsLabel: 'Detalles'
+    }
+  },
 
   // Vite
   vite: {

@@ -4,7 +4,7 @@ ul, ol {
 }
 
 li {
-  @apply relative mb-1 pl-6;
+  @apply relative my-1 pl-6;
 
   > :first-child {
     @apply mt-0;
@@ -29,4 +29,8 @@ li {
       content: counter(listItem);
     }
   }
+}
+
+.table-of-contents ul {
+  @apply my-1;
 }
