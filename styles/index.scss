@@ -4,7 +4,10 @@
 @import 'fonts/inter';
 @import 'fonts/source-code-pro';
 
-@import 'base';
+@import 'base/commons';
+@import 'base/headings';
+@import 'base/lists';
+@import 'base/code';
 
 @tailwind components;
 

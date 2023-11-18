@@ -1,0 +1,21 @@
+* {
+  @apply font-sans;
+}
+
+p {
+  @apply mb-8;
+
+  li > &:last-of-type {
+    @apply mb-0;
+  }
+}
+
+blockquote {
+  // TODO: colors
+  @apply mb-8 border-gray-400 bg-gray-100 pl-4 pr-6 py-2;
+  border-left-width: theme('spacing.2');
+
+  p:last-child {
+    @apply mb-0;
+  }
+}

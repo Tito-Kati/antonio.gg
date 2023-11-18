@@ -1,0 +1,30 @@
+ul, ol {
+  @apply mb-8 list-none;
+  counter-reset: listItem;
+
+
+}
+
+li {
+  @apply relative mb-1 pl-6;
+
+  li > &:last-of-type {
+    @apply mb-0;
+  }
+  ol > & {
+    counter-increment: listItem;
+
+  }
+
+  &::before {
+    @apply absolute block w-6 left-0 inset-y-0;
+
+    ul > & {
+      content: '•';
+    }
+
+    ol > & {
+      content: counter(listItem);
+    }
+  }
+}

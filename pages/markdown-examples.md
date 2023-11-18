@@ -13,7 +13,31 @@ look like:
 * this one
 * that one
 * the other one
+* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed euismod mi, vitae viverra arcu.
+  Aenean orci leo, tincidunt sit amet maximus id, vestibulum a lorem. 
+  Sed tincidunt luctus purus, sed aliquet orci imperdiet ac.
+  Aliquam risus sem, luctus vel felis nec, consectetur tincidunt nisi. Ut eu suscipit risus.
+  Nullam imperdiet sem eget turpis egestas, ut congue risus porta.
+  Morbi vitae ipsum malesuada, venenatis mauris nec, tempus tellus. Donec sodales fermentum felis vitae molestie.
+  Nunc blandit malesuada erat, ut pretium est dignissim vitae.
+  Nullam eget venenatis massa. Proin vitae erat eget felis pellentesque semper vel nec sem. 
+  Sed quis porta metus, at rutrum augue. Morbi id eleifend dolor.
+  Suspendisse pulvinar justo ac turpis efficitur, sed placerat orci eleifend.
+  Nam risus lorem, mollis sed fringilla et, euismod et tortor.
 
+- testing list with paragraphs
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed euismod mi, vitae viverra arcu.
+  Aenean orci leo, tincidunt sit amet maximus id, vestibulum a lorem.
+  Sed tincidunt luctus purus, sed aliquet orci imperdiet ac.
+  Aliquam risus sem, luctus vel felis nec, consectetur tincidunt nisi. Ut eu suscipit risus.
+  Nullam imperdiet sem eget turpis egestas, ut congue risus porta.
+  Morbi vitae ipsum malesuada, venenatis mauris nec, tempus tellus. Donec sodales fermentum felis vitae molestie.
+  Nunc blandit malesuada erat, ut pretium est dignissim vitae.
+
+  Nullam eget venenatis massa. Proin vitae erat eget felis pellentesque semper vel nec sem.
+  Sed quis porta metus, at rutrum augue. Morbi id eleifend dolor.
+  Suspendisse pulvinar justo ac turpis efficitur, sed placerat orci eleifend.
+  Nam risus lorem, mollis sed fringilla et, euismod et tortor.
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
@@ -26,10 +50,7 @@ content starts at 4-columns in.
 
 > Single paragraph block quote.
 
-
-
-An h2 header
-------------
+## An h2 header
 
 Here's a numbered list:
 
@@ -40,44 +61,41 @@ Here's a numbered list:
 Note again how the actual text starts at 4 columns in (4 characters
 from the left side). Here's a code sample:
 
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
+```php
+function loremFunction(string $dolor, string $amet): string {
+    $sit = "{$dolor} {$amet}";
+    $elit = 'consectetur adipiscing elit.';
 
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
+    return "{$sit} {$elit}";
 }
-~~~
+```
 
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
+```typescript
+function calcLorem(dolor: number, ipsum: number): number {
+    let sit = dolor * ipsum
+    let amet = dolor + ipsum
 
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
+    return sit / amet
+}
+```
 
+```
+no language ipsum
+```
 
-
-### An h3 header ###
+### An h3 header
 
 Now a nested list:
 
+* Test
+  * uwu
+    * owo
+
 1. First, get these ingredients:
-
-  * carrots
-  * celery
-  * lentils
-
+   * carrots
+   * celery
+   * lentils
 2. Boil some water.
-
 3. Dump everything in the pot and follow
    this algorithm:
 

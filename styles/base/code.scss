@@ -1,0 +1,53 @@
+// NOTE: regular <code> not inside <pre>
+:not(pre) > code {
+  // TODO: general styles
+  @apply bg-red-500;
+}
+
+// NOTE: code examples (using ``` in md)
+[class*='language-'] {
+  @apply relative mb-4;
+
+  .lang {
+    // TODO: z-index
+    @apply opacity-100 absolute top-2 right-2 text-xs;
+  }
+
+  .copy {
+    // TODO: styles
+    @apply opacity-0 absolute top-2 right-2 w-8 h-8 bg-red-500;
+  }
+
+  &:hover {
+    .lang {
+      @apply opacity-0;
+    }
+
+    .copy {
+      @apply opacity-100;
+    }
+  }
+}
+
+.vp-code-light,
+.vp-code-dark {
+  @apply block px-6 py-4;
+}
+
+.vp-code-light {
+  // TODO: colors
+  @apply bg-gray-100;
+
+  .dark & {
+    @apply hidden;
+  }
+}
+
+.vp-code-dark {
+  // TODO: colors
+  @apply hidden bg-gray-900;
+
+  .dark & {
+    @apply block;
+  }
+}
