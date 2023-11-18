@@ -38,6 +38,7 @@ look like:
   Sed quis porta metus, at rutrum augue. Morbi id eleifend dolor.
   Suspendisse pulvinar justo ac turpis efficitur, sed placerat orci eleifend.
   Nam risus lorem, mollis sed fringilla et, euismod et tortor.
+
 Note that --- not considering the asterisk --- the actual text
 content starts at 4-columns in.
 
@@ -91,40 +92,37 @@ Now a nested list:
   * uwu
     * owo
 
-1. First, get these ingredients:
-   * carrots
-   * celery
-   * lentils
-2. Boil some water.
-3. Dump everything in the pot and follow
-   this algorithm:
+1.  First, get these ingredients:
+    * carrots
+    * celery
+    * lentils
+2.  Boil some water.
+3.  Dump everything in the pot and follow
+    this algorithm:
+    ```bash
+    function loremStatus() {
+        local lorem=$(ps -aux)
+        local ipsum=$(echo "$lorem" | awk '{print $2, $11}' | head -n 5)
 
-       find wooden spoon
-       uncover pot
-       stir
-       cover pot
-       balance wooden spoon precariously on pot handle
-       wait 10 minutes
-       goto first step (or shut off burner when done)
-
-   Do not bump wooden spoon or it will fall.
+        echo "$ipsum"
+    }
+    ```
+    Do not bump wooden spoon or it will fall.
 
 Notice again how text always lines up on 4-space indents (including
 that last line which continues item 3 above).
 
-Here's a link to [a website](http://foo.bar), to a [local
-doc](local-doc.html), and to a [section heading in the current
-doc](#an-h2-header). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
+Here's a link to [a website](https://example.org), to a [local
+doc](/), and to a [section heading in the current
+doc](#an-h2-header).
 
 Tables can look like this:
 
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
+| size | material    | color       |
+|------|-------------|-------------|
+| 9    | leather     | brown       |
+| 10   | hemp canvas | natural     |
+| 11   | glass       | transparent |
 
 Table: Shoes, their sizes, and what they're made of
 

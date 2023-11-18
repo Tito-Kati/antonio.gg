@@ -1,12 +1,12 @@
 // NOTE: regular <code> not inside <pre>
 :not(pre) > code {
   // TODO: general styles
-  @apply bg-red-500;
+  @apply bg-gray-200 px-1;
 }
 
 // NOTE: code examples (using ``` in md)
 [class*='language-'] {
-  @apply relative mb-4;
+  @apply relative my-8;
 
   .lang {
     // TODO: z-index
