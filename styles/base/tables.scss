@@ -1,0 +1,30 @@
+// TODO: colors
+table {
+  @apply w-full bg-gray-100;
+}
+
+thead {
+  @apply bg-gray-200;
+}
+
+tr {
+  &:nth-of-type(2) {
+    @apply bg-gray-200;
+  }
+
+  tbody &:hover {
+    @apply bg-gray-50;
+  }
+}
+
+td, th {
+  @apply text-left px-3 py-2;
+
+  &:first-of-type {
+    @apply pl-6;
+  }
+
+  &:last-of-type {
+    @apply pr-6;
+  }
+}

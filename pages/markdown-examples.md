@@ -118,16 +118,12 @@ doc](#an-h2-header).
 
 Tables can look like this:
 
-| size | material    | color       |
-|------|-------------|-------------|
-| 9    | leather     | brown       |
-| 10   | hemp canvas | natural     |
-| 11   | glass       | transparent |
+| size | price | qty |  material   |       color |
+|------|-------|-----|:-----------:|------------:|
+| 9    | 13    | 100 |   leather   |       brown |
+| 10   | 21    | 200 | hemp canvas |     natural |
+| 11   | 3     | 390 |    glass    | transparent |
 
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
 
 --------  -----------------------
 keyword   text
