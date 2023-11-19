@@ -28,14 +28,14 @@ export default defineComponent({})
   }
 
   &__profile {
-    @apply rounded-full w-80 justify-self-center;
+    @apply rounded-full w-64 justify-self-center;
 
     @screen lg {
-      @apply w-64;
+      @apply w-52;
     }
 
     @screen xl {
-      @apply w-80;
+      @apply w-64;
     }
   }
 
