@@ -13,7 +13,7 @@ export default defineComponent({})
 <style lang="scss" scoped>
 .layout {
   &__container {
-    @apply container mx-auto;
+    @apply container;
   }
 }
 </style>

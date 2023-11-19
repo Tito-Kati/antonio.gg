@@ -1,6 +1,8 @@
+<HomeLayout>
+
 # Antonio Gonzalez Gea
 
-* Front End Lead en [Zapp Studio][zapp-studio]
+* Frontend Lead en [Zapp Studio][zapp-studio]
 * Creador de [Huezzle][huezzle]
 * Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
 
@@ -17,3 +19,9 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
 [huezzle]: https://huezzle.antonio.gg/
 [bashunit]: https://bashunit.typeddevs.com/
 [gacela]: https://gacela-project.com/
+
+</HomeLayout>
+
+<script lang="ts" setup>
+import HomeLayout from '@/layouts/HomeLayout/HomeLayout.vue'
+</script>
