@@ -22,7 +22,7 @@ export default defineComponent({
 
 <style lang="scss">
 .button {
-  @apply rounded-full bg-amber-500 px-4 py-2 text-white;
+  @apply rounded-full bg-green-500 px-4 py-2 text-white;
 
   &--primary {
     @apply bg-red-500;
