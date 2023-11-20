@@ -1,9 +1,9 @@
 <template>
   <div class="home-layout__container">
     <img
-        class="home-layout__profile"
-        src="/images/profile.jpg"
-        alt="Imagen de perfil de Antonio Gonzalez Gea"
+      class="home-layout__profile"
+      src="/images/profile.jpg"
+      alt="Imagen de perfil de Antonio Gonzalez Gea"
     >
     <div class="home-layout__content">
       <slot />
