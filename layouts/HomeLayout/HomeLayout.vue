@@ -4,7 +4,7 @@
       class="home-layout__profile"
       src="/images/profile.jpg"
       alt="Imagen de perfil de Antonio Gonzalez Gea"
-    >
+    />
     <div class="home-layout__content">
       <slot />
     </div>
@@ -28,7 +28,7 @@ export default defineComponent({})
   }
 
   &__profile {
-    @apply rounded-full w-64 justify-self-center;
+    @apply w-64 justify-self-center rounded-full;
 
     @screen lg {
       @apply w-52;
@@ -39,6 +39,7 @@ export default defineComponent({})
     }
   }
 
-  &__content {}
+  &__content {
+  }
 }
 </style>

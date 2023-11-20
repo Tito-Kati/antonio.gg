@@ -6,8 +6,7 @@ const Theme = {
   Layout: BaseLayout,
   enhanceApp({ app, router, siteData }) {
     // ...
-  }
+  },
 }
 
 export default Theme
-

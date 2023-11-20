@@ -17,8 +17,9 @@ tr {
   }
 }
 
-td, th {
-  @apply text-left px-3 py-2;
+td,
+th {
+  @apply px-3 py-2 text-left;
 
   &:first-of-type {
     @apply pl-6;

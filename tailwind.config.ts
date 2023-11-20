@@ -3,7 +3,7 @@ import { type Config } from 'tailwindcss'
 export default {
   content: [
     './pages/**/*.md',
-    './components/**/*.vue'
+    './components/**/*.vue',
   ],
   theme: {
     container: {
@@ -14,15 +14,24 @@ export default {
         md: '2rem',
         lg: '4rem',
         xl: '8rem',
-        '2xl': '16rem'
-      }
+        '2xl': '16rem',
+      },
     },
     fontFamily: {
-      sans: ['Inter', 'sans-serif'],
-      serif: ['Aleo', 'serif'],
-      mono: ['Source Code Pro', 'monospace']
+      sans: [
+        'Inter',
+        'sans-serif',
+      ],
+      serif: [
+        'Aleo',
+        'serif',
+      ],
+      mono: [
+        'Source Code Pro',
+        'monospace',
+      ],
     },
-    extend: {}
+    extend: {},
   },
-  plugins: []
+  plugins: [],
 } satisfies Config

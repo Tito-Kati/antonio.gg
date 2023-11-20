@@ -8,10 +8,9 @@ import MyButton from '@/components/MyButton/MyButton.vue'
 
 export default defineComponent({
   components: {
-    MyButton
-  }
+    MyButton,
+  },
 })
 </script>
 
-<style lang="scss">
-</style>
+<style lang="scss"></style>

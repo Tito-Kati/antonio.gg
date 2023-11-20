@@ -10,12 +10,12 @@
 
   .lang {
     // TODO: z-index
-    @apply opacity-100 absolute top-2 right-2 text-xs;
+    @apply absolute right-2 top-2 text-xs opacity-100;
   }
 
   .copy {
     // TODO: styles
-    @apply opacity-0 absolute top-2 right-2 w-8 h-8 bg-red-500;
+    @apply absolute right-2 top-2 h-8 w-8 bg-red-500 opacity-0;
   }
 
   &:hover {

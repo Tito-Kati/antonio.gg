@@ -52,6 +52,7 @@
     }
   },
   "dependencies": {
+    "prettier-plugin-css-order": "^2.0.1",
     "prettier-plugin-multiline-arrays": "^3.0.0"
   }
 }

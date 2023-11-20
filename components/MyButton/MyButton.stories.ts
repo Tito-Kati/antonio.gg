@@ -5,20 +5,20 @@ export default {
   tags: ['autodocs'],
   argTypes: {
     default: {
-      control: 'text'
-    }
-  }
+      control: 'text',
+    },
+  },
 }
 
 export const Primary = {
   args: {
     primary: true,
-    default: 'Label'
-  }
+    default: 'Label',
+  },
 }
 
 export const Secondary = {
   args: {
-    default: 'Label'
-  }
+    default: 'Label',
+  },
 }

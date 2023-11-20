@@ -1,5 +1,5 @@
 .custom-block {
-  @apply px-6 py-4 my-8;
+  @apply my-8 px-6 py-4;
 
   &.info {
     @apply bg-gray-200;
@@ -33,4 +33,3 @@
     @apply mt-4;
   }
 }
-

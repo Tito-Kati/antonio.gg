@@ -2,9 +2,9 @@
 
 # Antonio Gonzalez Gea
 
-* Frontend Lead en [Zapp Studio][zapp-studio]
-* Creador de [Huezzle][huezzle]
-* Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
+- Frontend Lead en [Zapp Studio][zapp-studio]
+- Creador de [Huezzle][huezzle]
+- Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
 
 Soy desarrollador full stack apasionado con más de 10 años de experiencia.
 Desde los 14 años, la programación y la informática han sido mi foco y mi pasión.

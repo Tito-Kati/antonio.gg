@@ -1,10 +1,7 @@
 <template>
   <button
     type="button"
-    :class="[
-      'button',
-      primary && 'button--primary'
-    ]"
+    :class="['button', primary && 'button--primary']"
   >
     <slot />
   </button>
@@ -17,17 +14,17 @@ export default defineComponent({
   props: {
     primary: {
       type: Boolean,
-      default: false
-    }
-  }
+      default: false,
+    },
+  },
 })
 </script>
 
 <style lang="scss">
 .button {
-  @apply rounded-full py-2 px-4 bg-amber-500 text-white;
+  @apply rounded-full bg-amber-500 px-4 py-2 text-white;
 
-  &--primary{
+  &--primary {
     @apply bg-red-500;
   }
 }
