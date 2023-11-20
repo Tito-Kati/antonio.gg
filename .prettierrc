@@ -1,7 +1,7 @@
 {
   "plugins": [
-    "prettier-plugin-tailwindcss",
     "prettier-plugin-css-order",
+    "prettier-plugin-tailwindcss",
     "prettier-plugin-multiline-arrays"
   ],
   "semi": false,
