@@ -11,7 +11,7 @@
     "preview": "vitepress preview",
     "stories": "storybook dev -p 6006",
     "stories:build": "storybook build",
-    "stories:check": "npx chromatic -b stories:build --no-interactive",
+    "stories:publish": "npx chromatic -b stories:build --no-interactive",
     "lint": "eslint --ext .js,.ts,.vue .",
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "format": "prettier --check .",

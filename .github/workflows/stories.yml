@@ -21,6 +21,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Publish stories to Chromatic
-        uses: chromaui/action@v1
+        run: npm run stories:publish
         with:
           projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
