@@ -14,15 +14,15 @@ export default {
         md: '2rem',
         lg: '4rem',
         xl: '8rem',
-        '2xl': '16rem',
+        '2xl': '16rem'
       }
     },
     fontFamily: {
       sans: ['Inter', 'sans-serif'],
       serif: ['Aleo', 'serif'],
-      mono: ['Source Code Pro', 'monospace'],
+      mono: ['Source Code Pro', 'monospace']
     },
-    extend: {},
+    extend: {}
   },
-  plugins: [],
+  plugins: []
 } satisfies Config

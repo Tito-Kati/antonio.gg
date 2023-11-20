@@ -11,8 +11,8 @@
     "preview": "vitepress preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "lint": "eslint --ext .ts,.vue,.cjs .",
-    "lint:fix": "eslint --fix --ext .ts,.vue ."
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue ."
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
