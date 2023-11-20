@@ -16,7 +16,7 @@
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "tsc": "tsc"
+    "sa": "tsc"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
