@@ -9,10 +9,11 @@
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
+    "stories": "storybook dev -p 6006",
+    "stories:build": "storybook build",
     "lint": "eslint --ext .js,.ts,.vue .",
-    "lint:fix": "eslint --fix --ext .js,.ts,.vue ."
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
