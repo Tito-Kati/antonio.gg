@@ -16,7 +16,9 @@
     "lint:fix": "eslint --fix --ext .js,.ts,.vue .",
     "format": "prettier --check .",
     "format:fix": "prettier --write .",
-    "sa": "tsc"
+    "sa": "tsc",
+    "pre-commit": "npm run sa && npm run lint && npm run format && npm run stories:publish && npm run build",
+    "pre-commit:install": "echo '#!/bin/sh\\nnpm run pre-commit' > .git/hooks/pre-commit && chmod u+x .git/hooks/pre-commit"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.5.3",
