@@ -4,6 +4,8 @@ on:
   workflow_run:
     workflows:
       - Lint
+      - Format
+      - Stories
     branches: [main]
     types:
       - completed

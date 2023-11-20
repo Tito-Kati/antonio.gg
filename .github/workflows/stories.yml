@@ -1,4 +1,4 @@
-name: Format
+name: Stories
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  format:
+  stories:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -20,5 +20,7 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
-      - name: Format with Prettier
-        run: npm run format
+      - name: Publish stories to Chromatic
+        uses: chromaui/action@v1
+        with:
+         projectToken: ${{ secrets.CHROMATIC_PROJECT_TOKEN }}
