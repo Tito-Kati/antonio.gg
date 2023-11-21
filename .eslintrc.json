@@ -19,5 +19,8 @@
   "plugins": ["vue"],
   "rules": {
     "prettier/prettier": "error"
-  }
+  },
+  "ignorePatterns": [
+    "storybook-static"
+  ]
 }
