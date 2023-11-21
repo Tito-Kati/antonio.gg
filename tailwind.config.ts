@@ -6,6 +6,30 @@ export default {
     './components/**/*.vue',
   ],
   theme: {
+    colors: {
+      black: '#000000',
+      white: '#ffffff',
+      primary: {
+        50: '#eeeff9',
+        100: '#cccfed',
+        200: '#a9b0e1',
+        300: '#8790d5',
+        400: '#6570c8',
+        500: '#4350bc',
+        600: '#37429a',
+        700: '#2a3378',
+        800: '#1e2556',
+        900: '#121633',
+        950: '#060711',
+      },
+      background: {
+        teal: '#1e4756',
+        blue: '#1e2556',
+        purple: '#3d1e56',
+      },
+      'warning-block': '#5f5121',
+      'danger-block': '#5f2124',
+    },
     container: {
       center: true,
       padding: {
@@ -39,28 +63,6 @@ export default {
       'code-copy': '2',
     },
     extend: {
-      colors: {
-        black: '#000000',
-        white: '#ffffff',
-        primary: {
-          50: '#eeeff9',
-          100: '#cccfed',
-          200: '#a9b0e1',
-          300: '#8790d5',
-          400: '#6570c8',
-          500: '#4350bc',
-          600: '#37429a',
-          700: '#2a3378',
-          800: '#1e2556',
-          900: '#121633',
-          950: '#060711',
-        },
-        background: {
-          teal: '#1e4756',
-          blue: '#1e2556',
-          purple: '#3d1e56',
-        },
-      },
       transitionDuration: {
         DEFAULT: '300ms',
       },

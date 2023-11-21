@@ -1,5 +1,5 @@
 body {
-  @apply bg-center;
+  @apply bg-top;
   --rotation: 0deg;
   background-image: url('/images/background.svg');
   background-size: 60rem 30rem;
@@ -18,8 +18,8 @@ body {
   }
 
   &::after {
-    @apply fixed inset-0 z-body-background-before block bg-center;
-    background-image: linear-gradient(theme('colors.black/0'), theme('colors.black/0.25'), theme('colors.black/0')),
+    @apply fixed inset-0 z-body-background-before block bg-top;
+    background-image: linear-gradient(theme('colors.black/0.25'), theme('colors.black/0'), theme('colors.black/0.25')),
       radial-gradient(circle, theme('colors.black/0'), theme('colors.black/0.75'));
     background-size:
       100vw theme('spacing.1'),
