@@ -1,7 +1,7 @@
 // NOTE: regular <code> not inside <pre>
 :not(pre) > code {
   // TODO: general styles
-  @apply bg-gray-200 px-1;
+  @apply bg-black/50 px-1 backdrop-blur;
 }
 
 // NOTE: code examples (using ``` in md)
@@ -9,13 +9,18 @@
   @apply relative my-8;
 
   .lang {
-    // TODO: z-index
-    @apply absolute right-2 top-2 text-xs opacity-100;
+    @apply absolute right-2 top-2 z-code-lang text-xs opacity-100 transition-opacity;
   }
 
   .copy {
-    // TODO: styles
-    @apply absolute right-2 top-2 h-8 w-8 bg-red-500 opacity-0;
+    @apply absolute right-2 top-2 z-code-copy h-8 w-8 bg-primary-500/50 bg-center bg-no-repeat opacity-0 transition-all;
+    background-image: url('/images/code-copy.svg');
+    background-size: theme('width.4') theme('height.4');
+
+    &:hover,
+    &:focus {
+      @apply bg-primary-500/75;
+    }
   }
 
   &:hover {
@@ -29,25 +34,10 @@
   }
 }
 
-.vp-code-light,
-.vp-code-dark {
-  @apply block px-6 py-4;
-}
-
 .vp-code-light {
-  // TODO: colors
-  @apply bg-gray-100;
-
-  .dark & {
-    @apply hidden;
-  }
+  @apply hidden;
 }
 
 .vp-code-dark {
-  // TODO: colors
-  @apply hidden bg-gray-900;
-
-  .dark & {
-    @apply block;
-  }
+  @apply block bg-black/25 px-6 py-4 backdrop-blur-sm;
 }

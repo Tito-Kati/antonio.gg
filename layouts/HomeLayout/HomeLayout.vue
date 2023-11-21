@@ -20,7 +20,7 @@ export default defineComponent({})
 <style lang="scss" scoped>
 .home-layout {
   &__container {
-    @apply grid min-h-screen content-center gap-8 pt-8;
+    @apply grid min-h-screen content-center gap-8;
 
     @screen lg {
       grid-template-columns: auto 1fr;
@@ -28,7 +28,7 @@ export default defineComponent({})
   }
 
   &__profile {
-    @apply w-64 justify-self-center rounded-full;
+    @apply mt-8 w-64 justify-self-center rounded-full;
 
     @screen lg {
       @apply w-52;
