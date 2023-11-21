@@ -1,19 +1,22 @@
-// TODO: colors
 table {
-  @apply w-full bg-gray-100;
+  @apply w-full;
 }
 
 thead {
-  @apply bg-gray-200;
+  tr {
+    @apply bg-black/25 backdrop-blur-sm;
+  }
 }
 
 tr {
+  @apply bg-primary-950/25 backdrop-blur-sm transition-colors;
+
   &:nth-of-type(2) {
-    @apply bg-gray-200;
+    @apply bg-black/25;
   }
 
   tbody &:hover {
-    @apply bg-gray-50;
+    @apply bg-primary-900/25;
   }
 }
 
