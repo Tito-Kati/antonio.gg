@@ -20,7 +20,7 @@ export default defineComponent({})
 <style lang="scss" scoped>
 .home-layout {
   &__container {
-    @apply grid min-h-screen content-center gap-8 py-8;
+    @apply grid min-h-screen content-center gap-8 pt-8;
 
     @screen lg {
       grid-template-columns: auto 1fr;
