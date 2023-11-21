@@ -8,8 +8,7 @@ p {
 }
 
 blockquote {
-  // TODO: colors
-  @apply my-8 border-gray-400 bg-gray-100 py-2 pl-4 pr-6;
+  @apply my-8 border-primary-500/25 bg-black/25 py-2 pl-4 pr-6 backdrop-blur-sm;
   border-left-width: theme('spacing.2');
 
   > p:first-of-type {
@@ -23,25 +22,29 @@ blockquote {
 
 a {
   // TODO: colors style
-  @apply text-red-700 transition-all;
+  @apply font-medium text-primary-300 transition-all;
+  font-variation-settings: 'slnt' 0;
 
   &:focus,
   &:hover {
-    @apply italic text-red-500;
+    @apply text-primary-200;
+    font-variation-settings: 'slnt' -10;
   }
 
   &[target='_blank'] {
-    // TODO: external links styles
-    @apply text-blue-700;
+    &::after {
+      @apply ml-1 inline-block h-2 w-2 bg-center bg-no-repeat opacity-75 transition-opacity;
+      background-image: url('/images/external-link.svg');
+      content: '';
 
-    &:focus,
-    &:hover {
-      @apply text-blue-500;
+      &:focus,
+      &:hover {
+        @apply opacity-100;
+      }
     }
   }
 }
 
 hr {
-  // TODO: colors
-  @apply my-8 border-t border-gray-300;
+  @apply my-8 border-none bg-white/25 pt-1 backdrop-blur;
 }
