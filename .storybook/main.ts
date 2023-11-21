@@ -17,4 +17,7 @@ export default {
   docs: {
     autodocs: 'tag',
   },
+  staticDirs: [
+    '../pages/public',
+  ],
 } satisfies StorybookConfig

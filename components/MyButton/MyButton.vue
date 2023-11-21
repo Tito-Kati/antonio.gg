@@ -22,10 +22,10 @@ export default defineComponent({
 
 <style lang="scss">
 .button {
-  @apply bg-green-500 rounded-full px-4 py-2 text-white;
+  @apply rounded-full bg-background-purple px-4 py-2 text-white;
 
   &--primary {
-    @apply bg-blue-500;
+    @apply bg-background-teal;
   }
 }
 </style>
