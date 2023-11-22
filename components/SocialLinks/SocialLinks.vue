@@ -15,20 +15,6 @@
     </a>
 
     <a
-      v-if="xHandle"
-      class="social-links__link"
-      :href="`https://twitter.com/${xHandle}`"
-      target="_blank"
-    >
-      <img
-        class="social-links__icon"
-        src="/images/x-twitter.svg"
-        alt=""
-      />
-      Twitter
-    </a>
-
-    <a
       v-if="linkedInHandle"
       class="social-links__link"
       :href="`https://www.linkedin.com/in/${linkedInHandle}/`"
@@ -43,9 +29,37 @@
     </a>
 
     <a
+      v-if="xHandle"
+      class="social-links__link"
+      :href="`https://twitter.com/${xHandle}`"
+      target="_blank"
+    >
+      <img
+        class="social-links__icon"
+        src="/images/x-twitter.svg"
+        alt=""
+      />
+      Twitter
+    </a>
+
+    <a
+      v-if="gitHubHandle"
+      class="social-links__link"
+      :href="`https://github.com/${gitHubHandle}`"
+      target="_blank"
+    >
+      <img
+        class="social-links__icon"
+        src="/images/github.svg"
+        alt=""
+      />
+      GitHub
+    </a>
+
+    <a
       v-if="printablesHandle"
       class="social-links__link"
-      :href="`https://www.printables.com/@${printablesHandle}/`"
+      :href="`https://www.printables.com/@${printablesHandle}`"
       target="_blank"
     >
       <img
@@ -59,7 +73,7 @@
     <a
       v-if="printablesModelId"
       class="social-links__link"
-      :href="`https://www.printables.com/model/${printablesModelId}/`"
+      :href="`https://www.printables.com/model/${printablesModelId}`"
       target="_blank"
     >
       <img
@@ -95,14 +109,20 @@ export default defineComponent({
       default: null,
       type: String as PropType<string>,
     },
+    /** Handle (last part of a custom URL) of a LinkedIn account */
+    linkedInHandle: {
+      required: false,
+      default: null,
+      type: String as PropType<string>,
+    },
     /** Handle of a X account, without the @ */
     xHandle: {
       required: false,
       default: null,
       type: String as PropType<string>,
     },
-    /** Handle (last part of a custom URL) of a LinkedIn account */
-    linkedInHandle: {
+    /** Handle of a GitHub user/project, compatible with user and user/project handles */
+    gitHubHandle: {
       required: false,
       default: null,
       type: String as PropType<string>,
@@ -128,9 +148,13 @@ export default defineComponent({
   $p: &;
 
   &__list {
+    @apply mb-8 flex w-full flex-wrap justify-around gap-x-6 gap-y-2;
   }
 
   &__link {
+    &::after {
+      display: none !important;
+    }
   }
 
   &__icon {

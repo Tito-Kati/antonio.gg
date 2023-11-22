@@ -15,6 +15,13 @@ metodologías y otros aspectos útiles en el ámbito laboral.
 Fuera del trabajo, exploro la impresión 3D, combinando creatividad con habilidades técnicas.
 Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y personal.
 
+<SocialLinks
+  linked-in-handle="antonio-gonzalez-gea"
+  x-handle="Tito_Kati"
+  git-hub-handle="Tito-Kati"
+  printables-handle="Katarn"
+/>
+
 [zapp-studio]: https://zapp-studio.com/
 [huezzle]: https://huezzle.antonio.gg/
 [bashunit]: https://bashunit.typeddevs.com/
@@ -24,4 +31,5 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
 
 <script lang="ts" setup>
 import HomeLayout from '@/layouts/HomeLayout/HomeLayout.vue'
+import SocialLinks from '@/components/SocialLinks/SocialLinks.vue'
 </script>
