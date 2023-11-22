@@ -27,8 +27,8 @@ export default {
         blue: '#1e2556',
         purple: '#3d1e56',
       },
-      'warning-block': '#5f5121',
-      'danger-block': '#5f2124',
+      'warning-block': '#56491e',
+      'danger-block': '#561e21',
     },
     container: {
       center: true,
