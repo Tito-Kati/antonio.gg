@@ -22,8 +22,8 @@ body {
     background-image: linear-gradient(theme('colors.black/0.25'), theme('colors.black/0'), theme('colors.black/0.25')),
       radial-gradient(circle, theme('colors.black/0'), theme('colors.black/0.75'));
     background-size:
-      100vw theme('spacing.1'),
-      100vw 100vh;
+      100% theme('spacing.1'),
+      100% 100%;
     content: '';
   }
 }
