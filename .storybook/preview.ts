@@ -1,5 +1,6 @@
 import { Preview } from '@storybook/vue3'
 import '../styles/index.scss'
+import { themes } from '@storybook/theming'
 
 export default {
   parameters: {
@@ -9,6 +10,12 @@ export default {
         color: /(background|color)$/i,
         date: /Date$/i,
       },
+    },
+    darkMode: {
+      current: 'dark',
+    },
+    docs: {
+      theme: themes.dark,
     },
   },
 } satisfies Preview
