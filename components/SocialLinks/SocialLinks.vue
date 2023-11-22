@@ -39,7 +39,7 @@
         :src="'/images/x-twitter.svg'"
         alt=""
       />
-      Twitter
+      X
     </a>
 
     <a
