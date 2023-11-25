@@ -13,24 +13,48 @@ h6 {
 
 h1 {
   @apply text-4xl;
+
+  @media print {
+    @apply text-2xl;
+  }
 }
 
 h2 {
   @apply text-3xl;
+
+  @media print {
+    @apply text-xl;
+  }
 }
 
 h3 {
   @apply text-2xl;
+
+  @media print {
+    @apply text-lg;
+  }
 }
 
 h4 {
   @apply text-xl;
+
+  @media print {
+    @apply text-base;
+  }
 }
 
 h5 {
   @apply text-lg;
+
+  @media print {
+    @apply text-sm;
+  }
 }
 
 h6 {
   @apply text-base;
+
+  @media print {
+    @apply text-xs;
+  }
 }

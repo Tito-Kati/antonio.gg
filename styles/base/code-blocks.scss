@@ -1,7 +1,10 @@
 // NOTE: regular <code> not inside <pre>
 :not(pre) > code {
-  // TODO: general styles
   @apply bg-black/50 px-1 backdrop-blur;
+
+  @media print {
+    @apply bg-black/20;
+  }
 }
 
 // NOTE: code examples (using ``` in md)
@@ -17,6 +20,10 @@
     background-image: url('/images/code-copy.svg');
     background-size: theme('width.4') theme('height.4');
 
+    @media print {
+      @apply hidden;
+    }
+
     &:hover,
     &:focus {
       @apply bg-primary-500/75;
@@ -26,6 +33,10 @@
   &:hover {
     .lang {
       @apply opacity-0;
+
+      @media print {
+        @apply opacity-100;
+      }
     }
 
     .copy {
@@ -36,8 +47,16 @@
 
 .vp-code-light {
   @apply hidden;
+
+  @media print {
+    @apply block bg-black/5 px-6 py-4;
+  }
 }
 
 .vp-code-dark {
   @apply block overflow-auto bg-black/25 px-6 py-4 backdrop-blur-sm;
+
+  @media print {
+    @apply hidden;
+  }
 }

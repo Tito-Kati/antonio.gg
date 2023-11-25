@@ -3,22 +3,42 @@
 
   &.info {
     @apply bg-black/25;
+
+    @media print {
+      @apply bg-black/10;
+    }
   }
 
   &.tip {
     @apply bg-primary-700/25;
+
+    @media print {
+      @apply bg-primary-700/10;
+    }
   }
 
   &.warning {
     @apply bg-warning-block/25;
+
+    @media print {
+      @apply bg-warning-block/10;
+    }
   }
 
   &.danger {
     @apply bg-danger-block/25;
+
+    @media print {
+      @apply bg-danger-block/10;
+    }
   }
 
   &.details {
     @apply bg-black/25;
+
+    @media print {
+      @apply hidden;
+    }
   }
 
   :last-child {

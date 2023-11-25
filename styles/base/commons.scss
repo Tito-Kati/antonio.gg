@@ -1,6 +1,11 @@
 html {
   @apply text-white;
   font-size: 20px;
+
+  @media print {
+    @apply text-black;
+    font-size: 14px;
+  }
 }
 
 p {
@@ -10,6 +15,10 @@ p {
 blockquote {
   @apply my-8 border-primary-500/25 bg-black/25 py-2 pl-4 pr-6 backdrop-blur-sm;
   border-left-width: theme('spacing.2');
+
+  @media print {
+    @apply border-black/10 bg-black/5;
+  }
 
   > p:first-of-type {
     @apply mt-0;
@@ -21,14 +30,21 @@ blockquote {
 }
 
 a {
-  // TODO: colors style
   @apply font-medium text-primary-300 transition-all;
   font-variation-settings: 'slnt' 0;
+
+  @media print {
+    @apply text-primary-500;
+  }
 
   &:focus,
   &:hover {
     @apply text-primary-200;
     font-variation-settings: 'slnt' -10;
+
+    @media print {
+      @apply text-primary-400;
+    }
   }
 
   &[target='_blank'] {
@@ -36,6 +52,10 @@ a {
       @apply ml-1 inline-block h-2 w-2 bg-center bg-no-repeat opacity-75 transition-opacity;
       background-image: url('/images/external-link.svg');
       content: '';
+
+      @media print {
+        @apply hidden;
+      }
 
       &:focus,
       &:hover {
@@ -47,4 +67,8 @@ a {
 
 hr {
   @apply my-8 border-none bg-white/25 pt-1 backdrop-blur;
+
+  @media print {
+    @apply bg-black/10;
+  }
 }

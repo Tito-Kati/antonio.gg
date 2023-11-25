@@ -4,6 +4,10 @@ body {
   background-image: url('/images/background.svg');
   background-size: 60rem 30rem;
 
+  @media print {
+    @apply bg-none;
+  }
+
   &::before {
     @apply fixed bottom-1/2 right-1/2 z-body-background-before block h-[200vmax] w-[200vmax] mix-blend-multiply blur-3xl;
     translate: 50% 50%;
@@ -15,6 +19,10 @@ body {
       theme('colors.background.teal')
     );
     content: '';
+
+    @media print {
+      @apply hidden;
+    }
   }
 
   &::after {
@@ -25,6 +33,10 @@ body {
       100% theme('spacing.1'),
       100% 100%;
     content: '';
+
+    @media print {
+      @apply hidden;
+    }
   }
 }
 
