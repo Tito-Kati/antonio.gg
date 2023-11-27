@@ -11,7 +11,7 @@ export default defineComponent({
   mounted() {
     document.addEventListener('scroll', function () {
       const bodyStyles = document.body.style
-      const rotation = `${Math.floor(window.scrollY * 0.1) % 360}deg`
+      const rotation = `${(Math.floor(window.scrollY * 0.01) % 36) * 10}deg`
       const property = '--rotation'
 
       if (bodyStyles.getPropertyValue(property) !== rotation) {
