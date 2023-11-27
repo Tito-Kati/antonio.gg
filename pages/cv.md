@@ -16,6 +16,17 @@ apasionado por la programación desde joven y dedicado al aprendizaje continuo y
 Exploro la impresión 3D, fusionando creatividad y habilidades técnicas.
 
 </template>
+<template #contact>
+
+## Contacto
+
+- [antonio.gonzalez.gea@gmail.com][mailto]
+- [antonio.gg][home-page]
+- [linkedin.com/in/antonio-gonzalez-gea][linkedin]
+- [github.com/Tito-Kati][github]
+- [printables.com/@Katarn][printables]
+
+</template>
 <template #experience>
 
 ## Experiencia
@@ -71,8 +82,84 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 2008 - 2010 _(2 años)_
 
 </template>
+<template #languages>
+
+## Idiomas
+
+- Spanish _(Nativo)_
+- English _(Profesional)_
+
+</template>
+<template #skills>
+
+## Habilidades
+
+- 3D Printing
+- 3D Prototyping
+- Adobe Illustrator
+- Adobe Photoshop
+- Agile
+- Autodesk Fusion 360
+- Bash
+- Bitbucket
+- Bootstrap
+- CI/CD
+- CRUD
+- CSS
+- DDD
+- DevOps
+- Docker
+- Express.js
+- Extreme Programming
+- Figma
+- Git
+- GitHub
+- Google Cloud
+- HTML
+- Hexagonal Architecture
+- JIRA
+- JavaScript
+- Jest
+- Laravel
+- Linux
+- Microfrontends
+- Microservices
+- MySQL
+- Next.js
+- Node.js
+- Nuxt.js
+- PHP
+- PHPUnit
+- PhpStorm
+- Project Management
+- Prusa
+- PrusaSlicer
+- Python
+- RESTful
+- React.js
+- SASS
+- SCSS
+- SOLID
+- Scrum
+- Software Architecture
+- Software Development
+- Storybook
+- Supabase
+- TDD
+- Tailwind CSS
+- TypeScript
+- Ubuntu
+- Vue.js
+- bashunit
+
+</template>
 </CurriculumVitaeLayout>
 
+[mailto]: mailto:antonio.gonzalez.gea@gmail.com
+[home-page]: https://antonio.gg/
+[linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
+[github]: https://github.com/Tito-Kati/
+[printables]: https://www.printables.com/@Katarn
 [zapp-studio]: https://zapp-studio.com/
 [huezzle]: https://huezzle.antonio.gg/
 [bashunit]: https://bashunit.typeddevs.com/
