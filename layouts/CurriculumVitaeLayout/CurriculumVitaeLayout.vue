@@ -116,10 +116,8 @@ export default defineComponent({})
       }
     }
 
-    a {
-      &::after {
-        @apply hidden;
-      }
+    a[target='_blank']::after {
+      @apply hidden;
     }
   }
 
