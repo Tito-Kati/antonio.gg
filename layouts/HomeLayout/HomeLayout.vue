@@ -17,7 +17,7 @@ import { defineComponent } from 'vue'
 export default defineComponent({})
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .home-layout {
   &__container {
     @apply grid min-h-screen content-center gap-8;

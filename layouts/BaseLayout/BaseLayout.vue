@@ -10,13 +10,19 @@ import { defineComponent } from 'vue'
 export default defineComponent({
   mounted() {
     document.addEventListener('scroll', function () {
-      document.body.style.setProperty('--rotation', `${(window.scrollY * 0.1) % 360}deg`)
+      const bodyStyles = document.body.style
+      const rotation = `${Math.floor(window.scrollY * 0.1) % 360}deg`
+      const property = '--rotation'
+
+      if (bodyStyles.getPropertyValue(property) !== rotation) {
+        bodyStyles.setProperty(property, rotation)
+      }
     })
   },
 })
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .layout {
   &__container {
     @apply container;
