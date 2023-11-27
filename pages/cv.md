@@ -7,18 +7,18 @@ title: Curriculum Vitae
 
 # Antonio Gonzalez Gea
 
-- Frontend Lead en [Zapp Studio][zapp-studio]
-- Creador de [Huezzle][huezzle]
-- Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
+- Frontend Lead at [Zapp Studio][zapp-studio]
+- Creator of [Huezzle][huezzle]
+- Active Contributor to [bashunit][bashunit] and [Gacela][gacela]
 
-Desarrollador full stack con más de 10 años de experiencia,
-apasionado por la programación desde joven y dedicado al aprendizaje continuo y la enseñanza de buenas prácticas.
-Exploro la impresión 3D, fusionando creatividad y habilidades técnicas.
+Full stack developer with over 10 years of experience,
+passionate about programming from a young age and dedicated to continuous learning and teaching of best practices.
+I explore 3D printing, merging creativity and technical skills.
 
 </template>
 <template #contact>
 
-## Contacto
+## Contact
 
 - [antonio.gonzalez.gea@gmail.com][mailto]
 - [antonio.gg][home-page]
@@ -29,107 +29,107 @@ Exploro la impresión 3D, fusionando creatividad y habilidades técnicas.
 </template>
 <template #experience>
 
-## Experiencia
+## Experience
 
 ### Frontend Lead _- [Zapp Studio][zapp-studio]_
 
-Abril 2023 - Actualidad _(8 meses)_
+April 2023 - Present _(8 months)_
 
-- Desarrollo integral de múltiples aplicaciones web, aplicando metodologías como TDD, DDD y Arquitectura Hexagonal,
-  y utilizando tecnologías como TypeScript, SASS, Vue.js, Angular y Node.js entre muchas otras.
-- Mentoría a los equipos de desarrollo en buenas prácticas de desarrollo de software y principios SOLID,
-  fomentando la calidad y eficiencia del código.
+- Comprehensive development of multiple web applications, applying methodologies such as TDD, DDD, and Hexagonal
+  Architecture, and using technologies like TypeScript, Sass, Vue.js, Angular, and Node.js among many others.
+- Mentoring development teams in good software development practices and SOLID principles,
+  fostering code quality and efficiency.
 
 ### CTO _- [LEVERADE][leverade]_
 
-Mayo 2015 - Abril 2023 _(8 años)_
+May 2015 - April 2023 _(8 years)_
 
-- Impulso al equipo de desarrollo y de producto en nuevas buenas prácticas y metodologías entre las cuales se
-  encuentran TDD, XP, Scrum, SOLID, Arquitectura Hexagonal, DDD y CQRS.
-- Migración de todos los servicios a un sistema redistribuido, con alta disponibilidad y escalabilidad horizontal.
-- Diseño y desarrollo del API Rest de gestión federativa con la que se integran webs y plataformas de cientos de
-  clientes y colaboradores.
-- Diseño y desarrollo de múltiples PWA con tecnologías como TypeScript, TailwindCSS, React.js y Vue.js.
+- Leading the development and product team in new best practices and methodologies including
+  TDD, XP, Scrum, SOLID, Hexagonal Architecture, DDD, and CQRS.
+- Migration of all services to a distributed system, with high availability and horizontal scalability.
+- Design and development of the federative management REST API integrated with websites and platforms of hundreds of
+  clients and collaborators.
+- Design and development of multiple PWAs using technologies like TypeScript, TailwindCSS, React.js, and Vue.js.
 
 ### Software Developer _- [LEVERADE][leverade]_
 
-Marzo 2014 - Mayo 2015 _(1 año)_
+March 2014 - May 2015 _(1 year)_
 
-- Rediseño y desarrollo de la plataforma de gestión competitiva, arbitral y licencias con tecnologías como Bootstrap,
-  Laravel y jQuery.
+- Redesign and development of the competitive management, refereeing, and licensing platform using technologies like
+  Bootstrap, Laravel, and jQuery.
 
 ### Software Developer _- [Convega][convega]_
 
-Marzo 2014 - Mayo 2015 _(1 año)_
+March 2014 - May 2015 _(1 year)_
 
-- Migración de varias webs para el cumplimiento de las Web Content Accessibility Guidelines.
+- Migration of several websites for compliance with Web Content Accessibility Guidelines.
 
 </template>
 <template #projects>
 
-## Proyectos
+## Projects
 
 ### bashunit
 
-bashunit es un framework de testing para scripts de Bash.
-Contribuyo activamente en la planificación, documentación y desarrollo del proyecto.
+bashunit is a testing framework for Bash scripts.
+I actively contribute to the planning, documentation, and development of the project.
 
-- [bashunit.typeddevs.com][bashunit] _(documentación)_
-- [github.com/TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) _(código fuente)_
-- [twitter.com/bashunit](https://twitter.com/bashunit) _(cuenta oficial de X)_
+- [bashunit.typeddevs.com][bashunit] _(documentation)_
+- [github.com/TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) _(source code)_
+- [twitter.com/bashunit](https://twitter.com/bashunit) _(official account)_
 
 ### Huezzle
 
-Juego de rompecabezas que son generados de forma procedural
-para que cada día todos los jugadores se enfrenten al mismo reto.
+A puzzle game generated procedurally
+so that every day all players face the same challenge.
 
-Proyecto realizado en solitario desde la concepción de la idea hasta la publicación.
-Cuenta con una media de 100 jugadores diarios.
+Project carried out solo from the conception of the idea to its publication.
+It has an average of 100 daily players.
 
-- [huezzle.antonio.gg][huezzle] _(juega ahora)_
-- [github.com/Tito-Kati/Huezzle](https://github.com/Tito-Kati/Huezzle) _(código fuente)_
-- [twitter.com/huezzle](https://twitter.com/huezzle) _(cuenta oficial de X)_
+- [huezzle.antonio.gg][huezzle] _(play now)_
+- [github.com/Tito-Kati/Huezzle](https://github.com/Tito-Kati/Huezzle) _(source code)_
+- [twitter.com/huezzle](https://twitter.com/huezzle) _(official account)_
 
 ### Gacela
 
-Framework para crear aplicaciones PHP modulares, facilitando la comunicación entre módulos y permitiendo su integración
-con otros frameworks como Laravel o Symfony.
+Framework for creating modular PHP applications, facilitating communication between modules and allowing their
+integration with other frameworks like Laravel or Symfony.
 
-Contribuyo activamente en Gacela, especialmente en el desarrollo de su módulo de rutas.
+I actively contribute to Gacela, especially in the development of its routing module.
 
-- [gacela-project.com][gacela] _(documentación)_
-- [github.com/gacela-project](https://github.com/gacela-project) _(código fuente)_
-- [twitter.com/gacela_project](https://twitter.com/gacela_project) _(cuenta oficial de X)_
+- [gacela-project.com][gacela] _(documentation)_
+- [github.com/gacela-project](https://github.com/gacela-project) _(source code)_
+- [twitter.com/gacela_project](https://twitter.com/gacela_project) _(official account)_
 
 </template>
 <template #education>
 
-## Educación
+## Education
 
-### Desarrollo de Aplicaciones Multiplataforma
+### Multiplatform Application Development
 
-**Ciclo Formativo de Grado Superior** _- IES Ingeniero de la Cierva_
+**Higher Education Training Cycle** _- IES Ingeniero de la Cierva_
 \
-2012 - 2014 _(2 años)_
+2012 - 2014 _(2 years)_
 
-### Desarrollo de Aplicaciones Multiplataforma
+### Systems Administration and Network Management
 
-**Administración de Sistemas Informáticos y Redes** _- IES Las Espeñetas_
+**Higher Education Training Cycle** _- IES Las Espeñetas_
 \
-2008 - 2010 _(2 años)_
+2008 - 2010 _(2 years)_
 
 </template>
 <template #languages>
 
-## Idiomas
+## Languages
 
-- Spanish _(Nativo)_
-- English _(Profesional)_
+- Spanish _(Native)_
+- English _(Professional proficiency)_
 
 </template>
 <template #skills>
 
-## Habilidades
+## Skills
 
 - 3D Printing
 - 3D Prototyping
