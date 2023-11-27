@@ -65,6 +65,43 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - Migración de varias webs para el cumplimiento de las Web Content Accessibility Guidelines.
 
 </template>
+<template #projects>
+
+## Proyectos
+
+### bashunit
+
+bashunit es un framework de testing para scripts de Bash.
+Contribuyo activamente en la planificación, documentación y desarrollo del proyecto.
+
+- [bashunit.typeddevs.com][bashunit] _(documentación)_
+- [github.com/TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) _(código fuente)_
+- [twitter.com/bashunit](https://twitter.com/bashunit) _(cuenta oficial de X)_
+
+### Huezzle
+
+Juego de rompecabezas que son generados de forma procedural
+para que cada día todos los jugadores se enfrenten al mismo reto.
+
+Proyecto realizado en solitario desde la concepción de la idea hasta la publicación.
+Cuenta con una media de 100 jugadores diarios.
+
+- [huezzle.antonio.gg][huezzle] _(juega ahora)_
+- [github.com/Tito-Kati/Huezzle](https://github.com/Tito-Kati/Huezzle) _(código fuente)_
+- [twitter.com/huezzle](https://twitter.com/huezzle) _(cuenta oficial de X)_
+
+### Gacela
+
+Framework para crear aplicaciones PHP modulares, facilitando la comunicación entre módulos y permitiendo su integración
+con otros frameworks como Laravel o Symfony.
+
+Contribuyo activamente en Gacela, especialmente en el desarrollo de su módulo de rutas.
+
+- [gacela-project.com][gacela] _(documentación)_
+- [github.com/gacela-project](https://github.com/gacela-project) _(código fuente)_
+- [twitter.com/gacela_project](https://twitter.com/gacela_project) _(cuenta oficial de X)_
+
+</template>
 <template #education>
 
 ## Educación
@@ -138,7 +175,7 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - Python
 - React.js
 - RESTful
-- SASS
+- Sass
 - Scrum
 - SCSS
 - Software Architecture
@@ -150,6 +187,7 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - TDD
 - TypeScript
 - Ubuntu
+- VitePress
 - Vue.js
 
 </template>

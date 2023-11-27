@@ -14,6 +14,9 @@
     <div class="curriculum-vitae-layout__experience">
       <slot name="experience" />
     </div>
+    <div class="curriculum-vitae-layout__projects">
+      <slot name="projects" />
+    </div>
     <div class="curriculum-vitae-layout__education">
       <slot name="education" />
     </div>
@@ -48,6 +51,9 @@
       </div>
       <div class="curriculum-vitae-layout__experience">
         <slot name="experience" />
+      </div>
+      <div class="curriculum-vitae-layout__projects">
+        <slot name="projects" />
       </div>
       <div class="curriculum-vitae-layout__education">
         <slot name="education" />
@@ -122,6 +128,9 @@ export default defineComponent({})
   }
 
   &__experience {
+  }
+
+  &__projects {
   }
 
   &__education {
