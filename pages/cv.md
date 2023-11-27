@@ -101,6 +101,7 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - Agile
 - Autodesk Fusion 360
 - Bash
+- bashunit
 - Bitbucket
 - Bootstrap
 - CI/CD
@@ -115,11 +116,11 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - Git
 - GitHub
 - Google Cloud
-- HTML
 - Hexagonal Architecture
-- JIRA
+- HTML
 - JavaScript
 - Jest
+- JIRA
 - Laravel
 - Linux
 - Microfrontends
@@ -129,28 +130,27 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 - Node.js
 - Nuxt.js
 - PHP
-- PHPUnit
 - PhpStorm
+- PHPUnit
 - Project Management
 - Prusa
 - PrusaSlicer
 - Python
-- RESTful
 - React.js
+- RESTful
 - SASS
-- SCSS
-- SOLID
 - Scrum
+- SCSS
 - Software Architecture
 - Software Development
+- SOLID
 - Storybook
 - Supabase
-- TDD
 - Tailwind CSS
+- TDD
 - TypeScript
 - Ubuntu
 - Vue.js
-- bashunit
 
 </template>
 </CurriculumVitaeLayout>
