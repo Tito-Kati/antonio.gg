@@ -45,18 +45,18 @@
   }
 }
 
-.vp-code-light {
-  @apply hidden;
+.vp-code {
+  @apply block overflow-auto bg-black/25 px-6 py-4 backdrop-blur-sm;
+
+  * {
+    color: var(--shiki-dark);
+  }
 
   @media print {
     @apply block bg-black/5 px-6 py-4;
-  }
-}
 
-.vp-code-dark {
-  @apply block overflow-auto bg-black/25 px-6 py-4 backdrop-blur-sm;
-
-  @media print {
-    @apply hidden;
+    * {
+      color: var(--shiki-light);
+    }
   }
 }

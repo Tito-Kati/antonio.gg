@@ -27,6 +27,10 @@ export default defineComponent({})
     @screen lg {
       grid-template-columns: auto 1fr;
     }
+
+    @media print {
+      grid-template-columns: auto 1fr;
+    }
   }
 
   &__profile {
@@ -38,6 +42,10 @@ export default defineComponent({})
 
     @screen xl {
       @apply w-52;
+    }
+
+    @media print {
+      @apply w-40;
     }
   }
 
