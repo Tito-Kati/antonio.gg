@@ -152,7 +152,7 @@ export default defineComponent({})
     }
 
     li {
-      @apply bg-black/50 px-1 backdrop-blur;
+      @apply bg-black/50 px-1;
 
       @media print {
         @apply bg-black/5;

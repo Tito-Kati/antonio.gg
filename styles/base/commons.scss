@@ -66,7 +66,7 @@ a {
 }
 
 hr {
-  @apply my-8 border-none bg-white/25 pt-1 backdrop-blur;
+  @apply my-8 border-none bg-white/25 pt-1;
 
   @media print {
     @apply bg-black/10;
