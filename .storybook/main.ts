@@ -1,4 +1,5 @@
 import { StorybookConfig } from '@storybook/vue3-vite'
+import path from 'path'
 
 export default {
   stories: [
@@ -21,4 +22,12 @@ export default {
   staticDirs: [
     '../pages/public',
   ],
+  viteFinal(config, options) {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@': path.resolve(__dirname, '..'),
+    }
+
+    return config
+  },
 } satisfies StorybookConfig

@@ -29,6 +29,7 @@
     "@storybook/addon-links": "^7.6.1",
     "@storybook/blocks": "^7.6.1",
     "@storybook/testing-library": "^0.2.2",
+    "@storybook/theming": "^7.6.1",
     "@storybook/vue3": "^7.6.1",
     "@storybook/vue3-vite": "^7.6.1",
     "@typescript-eslint/eslint-plugin": "^6.13.1",
