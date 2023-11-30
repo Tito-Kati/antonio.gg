@@ -20,7 +20,7 @@ export default {
     autodocs: 'tag',
   },
   staticDirs: [
-    '../pages/public',
+    '../public',
   ],
   viteFinal(config, options) {
     config.publicDir = '../public'
