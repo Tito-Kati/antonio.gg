@@ -61,6 +61,7 @@ export default {
 
       'code-lang': '1',
       'code-copy': '2',
+      'navigation-bar': '3',
     },
     extend: {
       transitionDuration: {

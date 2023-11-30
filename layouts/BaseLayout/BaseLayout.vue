@@ -1,13 +1,19 @@
 <template>
   <div class="layout__container">
+    <NavigationBar />
+
     <Content />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
+import NavigationBar from '@/components/NavigationBar/NavigationBar.vue'
 
 export default defineComponent({
+  components: {
+    NavigationBar,
+  },
   mounted() {
     document.addEventListener('scroll', function () {
       const bodyStyles = document.body.style

@@ -1,11 +1,11 @@
 body {
-  @apply bg-top;
+  @apply bg-top pt-10;
   --rotation: 0deg;
   background-image: url('/images/background.svg');
   background-size: 60rem 30rem;
 
   @media print {
-    @apply bg-none;
+    @apply bg-none p-0;
   }
 
   &::before {
