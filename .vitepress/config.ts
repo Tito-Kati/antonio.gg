@@ -40,6 +40,7 @@ export default defineConfig({
 
   // Vite
   vite: {
+    publicDir: '../public',
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '..'),

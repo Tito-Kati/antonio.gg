@@ -22,7 +22,7 @@
     >
       <img
         class="social-links__icon"
-        :src="'/images/linkedin.svg'"
+        src="/images/linkedin.svg"
         alt=""
       />
       LinkedIn
@@ -36,7 +36,7 @@
     >
       <img
         class="social-links__icon"
-        :src="'/images/x-twitter.svg'"
+        src="/images/x-twitter.svg"
         alt=""
       />
       X
@@ -50,7 +50,7 @@
     >
       <img
         class="social-links__icon"
-        :src="'/images/github.svg'"
+        src="/images/github.svg"
         alt=""
       />
       GitHub
@@ -64,7 +64,7 @@
     >
       <img
         class="social-links__icon"
-        :src="'/images/printables.svg'"
+        src="/images/printables.svg"
         alt=""
       />
       Printables
@@ -78,7 +78,7 @@
     >
       <img
         class="social-links__icon"
-        :src="'/images/printables.svg'"
+        src="/images/printables.svg"
         alt=""
       />
       Printables

@@ -8,7 +8,7 @@
       >
         <img
           class="navigation-bar__image"
-          :src="'/images/profile.jpg'"
+          src="/images/profile.jpg"
           alt="Imagen de perfil de Antonio Gonzalez Gea"
         />
 

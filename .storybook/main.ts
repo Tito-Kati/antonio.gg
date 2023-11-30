@@ -23,6 +23,8 @@ export default {
     '../pages/public',
   ],
   viteFinal(config, options) {
+    config.publicDir = '../public'
+
     config.resolve.alias = {
       ...config.resolve.alias,
       '@': path.resolve(__dirname, '..'),
