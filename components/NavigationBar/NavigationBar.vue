@@ -2,7 +2,7 @@
   <nav class="navigation-bar__background">
     <div class="navigation-bar__container">
       <a
-        class="navigation-bar__home"
+        class="navigation-bar__home-link"
         href="/"
         title="Ir a inicio"
       >
@@ -39,6 +39,8 @@ export default defineComponent({
 
 <style lang="scss">
 .navigation-bar {
+  $p: &;
+
   &__background {
     @apply fixed inset-x-0 top-0 z-navigation-bar bg-black/50 backdrop-blur-sm;
 
@@ -51,12 +53,16 @@ export default defineComponent({
     @apply container flex items-center gap-4 py-1;
   }
 
-  &__home {
+  &__home-link {
     @apply flex items-center gap-4;
   }
 
   &__image {
-    @apply h-8 rounded-full;
+    @apply h-8 rounded-full transition-opacity;
+
+    #{$p}__home-link:hover & {
+      @apply opacity-75;
+    }
   }
 
   &__separator {
@@ -64,7 +70,7 @@ export default defineComponent({
   }
 
   &__social-links {
-    @apply flex-nowrap;
+    @apply -mr-2 flex-nowrap;
   }
 }
 </style>
