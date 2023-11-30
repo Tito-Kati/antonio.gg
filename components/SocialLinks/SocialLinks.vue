@@ -148,10 +148,12 @@ export default defineComponent({
   $p: &;
 
   &__list {
-    @apply mb-8 flex w-full flex-wrap justify-around gap-x-8 gap-y-2;
+    @apply mb-8 flex w-full flex-wrap justify-around gap-x-4 gap-y-2;
   }
 
   &__link {
+    @apply px-2;
+
     &::after {
       display: none !important;
     }

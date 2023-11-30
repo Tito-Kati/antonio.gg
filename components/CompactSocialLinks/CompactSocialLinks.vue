@@ -96,10 +96,12 @@ export default defineComponent({
   $p: &;
 
   &__list {
-    @apply flex w-fit flex-wrap gap-x-4;
+    @apply flex w-fit flex-wrap;
   }
 
   &__link {
+    @apply p-2;
+
     &::after {
       display: none !important;
     }
