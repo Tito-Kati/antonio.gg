@@ -9,12 +9,21 @@ export default defineConfig({
     'Portfolio de Antonio Gonzalez Gea, desarrollador full stack y aficionado a la impresión 3D. Mi trayectoria' +
     ' profesional en desarrollo, mis creaciones en impresión 3D y otros hobbies que inspiran mi trabajo.',
   lang: 'es',
+  head: [
+    [
+      'link',
+      { rel: 'icon', href: '/favicon.ico' },
+    ],
+  ],
 
   // Routing
   cleanUrls: true,
 
   // Build
   srcDir: 'pages',
+  sitemap: {
+    hostname: 'https://antonio.gg',
+  },
 
   // Markdown
   markdown: {
