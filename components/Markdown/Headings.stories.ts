@@ -1,0 +1,99 @@
+import type { Meta, StoryObj } from '@storybook/vue3'
+import MarkdownIt from 'markdown-it'
+
+enum headings {
+  h1 = '#',
+  h2 = '##',
+  h3 = '###',
+  h4 = '####',
+  h5 = '#####',
+  h6 = '######',
+}
+
+interface args {
+  tag: headings
+  content: string
+}
+
+export default {
+  title: 'Markdown/Headings',
+  argTypes: {
+    tag: {
+      control: 'select',
+      options: Object.values({ ...headings }),
+      description: 'The heading level in markdown',
+    },
+    content: {
+      control: 'text',
+    },
+  },
+  args: {
+    tag: headings.h1,
+  },
+  render(args) {
+    return {
+      computed: {
+        md() {
+          const md = new MarkdownIt()
+
+          return md.render(`${args.tag} ${args.content}`)
+        },
+      },
+      template: `<div v-html="md"></div>`,
+    }
+  },
+} satisfies Meta<args>
+
+export const HeadingLevel1: StoryObj<args> = {
+  args: {
+    tag: headings.h1,
+    content: 'Heading',
+  },
+}
+
+export const HeadingLevel2: StoryObj<args> = {
+  args: {
+    tag: headings.h2,
+    content: 'Heading',
+  },
+}
+
+export const HeadingLevel3: StoryObj<args> = {
+  args: {
+    tag: headings.h3,
+    content: 'Heading',
+  },
+}
+
+export const HeadingLevel4: StoryObj<args> = {
+  args: {
+    tag: headings.h4,
+    content: 'Heading',
+  },
+}
+
+export const HeadingLevel5: StoryObj<args> = {
+  args: {
+    tag: headings.h5,
+    content: 'Heading',
+  },
+}
+
+export const HeadingLevel6: StoryObj<args> = {
+  args: {
+    tag: headings.h6,
+    content: 'Heading',
+  },
+}
+
+export const HeadingWithBold: StoryObj<args> = {
+  args: {
+    content: 'Heading **Bold**',
+  },
+}
+
+export const HeadingWithItalic: StoryObj<args> = {
+  args: {
+    content: 'Heading _Italic_',
+  },
+}
