@@ -44,18 +44,10 @@ export default defineComponent({
         return ''
       }
 
-      const wrapper = document.createElement('template')
-      wrapper.innerHTML = this.shikiji.codeToHtml(this.template, {
+      return this.shikiji.codeToHtml(this.template, {
         lang: 'md',
         theme: 'github-dark',
       })
-
-      const code = wrapper.content.firstElementChild
-
-      code?.classList.add('vp-code')
-      code?.removeAttribute('style')
-
-      return wrapper.innerHTML
     },
   },
   created() {
@@ -76,7 +68,24 @@ export default defineComponent({
 <style lang="scss">
 .markdown-wrapper {
   &__container {
-    @apply columns-2;
+    @apply -m-4 grid min-h-screen grid-rows-2;
+
+    @screen lg {
+      @apply grid-cols-2 grid-rows-1;
+    }
+  }
+
+  &__result {
+    @apply p-4;
+  }
+
+  &__code {
+    @apply bg-black/75 p-4;
+
+    pre {
+      background: none !important;
+      font-size: 16px;
+    }
   }
 }
 </style>
