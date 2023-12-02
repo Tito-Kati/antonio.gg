@@ -50,7 +50,7 @@ congue non nisl convallis, rhoncus euismod tortor. Pellentesque tincidunt sit am
 
 Nam rutrum urna nec convallis sollicitudin. Donec lacus lectus, lobortis in sem nec, convallis dictum enim. 
 Praesent sodales sed turpis et feugiat. Morbi eu urna metus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
- Curabitur sit amet rhoncus libero. Fusce at dolor consectetur, laoreet ante eu, tincidunt erat.`,
+Curabitur sit amet rhoncus libero. Fusce at dolor consectetur, laoreet ante eu, tincidunt erat.`,
   },
 }
 
@@ -62,6 +62,6 @@ Mauris in nisi ligula. Ut pulvinar diam purus. Nulla dignissim ante non rutrum c
 facilisis nec quam vitae, dictum porta ex. **_In sollicitudin_**, libero ornare ornare cursus, lorem justo blandit odio,
 eu fermentum nibh metus fermentum est. **Sed** _sed_ nisi at tortor pretium volutpat quis at metus.
 Integer venenatis feugiat pulvinar. Aenean consequat at dolor at consequat. Proin id auctor dolor.
-Aenean porta erat vitae egestas vestibulum. `,
+Aenean porta erat vitae egestas vestibulum.`,
   },
 }
