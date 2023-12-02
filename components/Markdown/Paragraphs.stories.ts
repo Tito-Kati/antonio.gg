@@ -58,9 +58,9 @@ export const ParagraphWithBoldAndItalic: StoryObj<args> = {
   args: {
     content: `\
 **Lorem ipsum** dolor sit amet, _consectetur adipiscing_ elit. Sed cursus risus id velit lacinia tempus.
-Mauris in nisi ligula. Ut pulvinar diam purus. Nulla dignissim ante non rutrum cursus. Phasellus justo nisi,
+Mauris in nisi ligula. \`Ut pulvinar\` diam purus. Nulla dignissim ante non rutrum cursus. Phasellus justo nisi,
 facilisis nec quam vitae, dictum porta ex. **_In sollicitudin_**, libero ornare ornare cursus, lorem justo blandit odio,
-eu fermentum nibh metus fermentum est. **Sed** _sed_ nisi at tortor pretium volutpat quis at metus.
+eu fermentum nibh metus fermentum est. **Sed** _sed_ \`nisi\` at tortor pretium volutpat quis at metus.
 Integer venenatis feugiat pulvinar. Aenean consequat at dolor at consequat. Proin id auctor dolor.
 Aenean porta erat vitae egestas vestibulum.`,
   },

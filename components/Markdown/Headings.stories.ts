@@ -88,14 +88,8 @@ export const HeadingLevel6: StoryObj<args> = {
   },
 }
 
-export const HeadingWithBold: StoryObj<args> = {
+export const HeadingWithStyles: StoryObj<args> = {
   args: {
-    content: 'Heading **Bold**',
-  },
-}
-
-export const HeadingWithItalic: StoryObj<args> = {
-  args: {
-    content: 'Heading _Italic_',
+    content: 'Heading **Bold** _italic_ `code`',
   },
 }

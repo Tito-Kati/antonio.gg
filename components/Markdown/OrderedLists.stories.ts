@@ -56,11 +56,12 @@ export const WithParagraphs: StoryObj<args> = {
   },
 }
 
-export const WithBoldAndItalic: StoryObj<args> = {
+export const WithStyles: StoryObj<args> = {
   args: {
     content: `\
 1. Bold **item**
-2. Italic _item_`,
+2. Italic _item_
+3. Code \`item\``,
   },
 }
 
