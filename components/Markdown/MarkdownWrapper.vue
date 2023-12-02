@@ -80,7 +80,7 @@ export default defineComponent({
   }
 
   &__code {
-    @apply bg-black/75 p-4;
+    @apply overflow-x-scroll bg-black/75 p-4;
 
     pre {
       background: none !important;
