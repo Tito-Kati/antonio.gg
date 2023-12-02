@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/vue3'
-import MarkdownIt from 'markdown-it'
+import MarkdownWrapper from '@/components/Markdown/MarkdownWrapper.vue'
 
 enum headings {
   h1 = '#',
@@ -21,7 +21,6 @@ export default {
     tag: {
       control: 'select',
       options: Object.values({ ...headings }),
-      description: 'The heading level in markdown',
     },
     content: {
       control: 'text',
@@ -32,14 +31,17 @@ export default {
   },
   render(args) {
     return {
+      components: { MarkdownWrapper },
       computed: {
-        md() {
-          const md = new MarkdownIt()
-
-          return md.render(`${args.tag} ${args.content}`)
+        template() {
+          return `${args.tag} ${args.content}`
         },
       },
-      template: `<div v-html="md"></div>`,
+      template: `
+        <MarkdownWrapper
+          :template="template"
+        />
+      `,
     }
   },
 } satisfies Meta<args>
