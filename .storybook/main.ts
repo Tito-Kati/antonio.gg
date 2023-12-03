@@ -20,10 +20,10 @@ export default {
     autodocs: 'tag',
   },
   staticDirs: [
-    '../public',
+    path.resolve(__dirname, '../public'),
   ],
   viteFinal(config, options) {
-    config.publicDir = '../public'
+    config.publicDir = path.resolve(__dirname, '../public')
 
     config.resolve.alias = {
       ...config.resolve.alias,
