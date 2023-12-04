@@ -1,6 +1,7 @@
 import { Preview } from '@storybook/vue3'
-import '../styles/index.scss'
 import { themes } from '@storybook/theming'
+import '@/styles/index.scss'
+import './styles.scss'
 
 export default {
   parameters: {
