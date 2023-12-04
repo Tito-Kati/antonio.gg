@@ -22,7 +22,7 @@ I explore 3D printing, merging creativity and technical skills.
 
 - [dev@antonio.gg][mailto]
 - [antonio.gg][home-page]
-- [linkedin.com/in/antonio-gonzalez-gea][linkedin]
+- [linkedin.com/in/agg-dev][linkedin]
 - [github.com/antonio-gg-dev][github]
 - [printables.com/@Katarn][printables]
 
@@ -195,7 +195,7 @@ I actively contribute to Gacela, especially in the development of its routing mo
 
 [mailto]: mailto:dev@antonio.gg
 [home-page]: https://antonio.gg/
-[linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
+[linkedin]: https://www.linkedin.com/in/agg-dev/
 [github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
 [zapp-studio]: https://zapp-studio.com/

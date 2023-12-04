@@ -12,7 +12,7 @@ export const AllEnabled: StoryObj<typeof SocialLinks> = {
     customLink: 'https://bashunit.typeddevs.com/',
     customImage: 'https://bashunit.typeddevs.com/logo.svg',
     customLabel: 'bashunit',
-    linkedInHandle: 'antonio-gonzalez-gea',
+    linkedInHandle: 'agg-dev',
     xHandle: 'antonio_gg_dev',
     gitHubHandle: 'antonio-gg-dev',
     printablesHandle: 'Katarn',
@@ -22,7 +22,7 @@ export const AllEnabled: StoryObj<typeof SocialLinks> = {
 
 export const OnlyLinkedIn: StoryObj<typeof SocialLinks> = {
   args: {
-    linkedInHandle: 'antonio-gonzalez-gea',
+    linkedInHandle: 'agg-dev',
   },
 }
 

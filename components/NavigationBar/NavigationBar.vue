@@ -19,7 +19,7 @@
 
       <CompactSocialLinks
         class="navigation-bar__social-links"
-        linked-in-handle="antonio-gonzalez-gea"
+        linked-in-handle="agg-dev"
         x-handle="antonio_gg_dev"
         git-hub-handle="antonio-gg-dev"
         printables-handle="Katarn"

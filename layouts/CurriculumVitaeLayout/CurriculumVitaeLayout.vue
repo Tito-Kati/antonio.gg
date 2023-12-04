@@ -111,7 +111,7 @@ export default defineComponent({})
 
   &__contact {
     li {
-      @apply mb-2 pl-0;
+      @apply mb-2 whitespace-nowrap pl-0;
 
       &:first-of-type {
         @apply mb-8;
