@@ -14,7 +14,7 @@ export const AllEnabled: StoryObj<typeof SocialLinks> = {
     customLabel: 'bashunit',
     linkedInHandle: 'antonio-gonzalez-gea',
     xHandle: 'antonio_gg_dev',
-    gitHubHandle: 'Tito-Kati',
+    gitHubHandle: 'antonio-gg-dev',
     printablesHandle: 'Katarn',
     printablesModelId: 421668,
   },
@@ -34,13 +34,13 @@ export const OnlyX: StoryObj<typeof SocialLinks> = {
 
 export const OnlyGitHubUser: StoryObj<typeof SocialLinks> = {
   args: {
-    gitHubHandle: 'Tito-Kati',
+    gitHubHandle: 'antonio-gg-dev',
   },
 }
 
 export const OnlyGitHubRepository: StoryObj<typeof SocialLinks> = {
   args: {
-    gitHubHandle: 'Tito-Kati/Huezzle',
+    gitHubHandle: 'antonio-gg-dev/Huezzle',
   },
 }
 

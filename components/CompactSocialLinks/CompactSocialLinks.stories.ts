@@ -11,7 +11,7 @@ export const AllEnabled: StoryObj<typeof CompactSocialLinks> = {
   args: {
     linkedInHandle: 'antonio-gonzalez-gea',
     xHandle: 'antonio_gg_dev',
-    gitHubHandle: 'Tito-Kati',
+    gitHubHandle: 'antonio-gg-dev',
     printablesHandle: 'Katarn',
   },
 }
@@ -30,7 +30,7 @@ export const OnlyX: StoryObj<typeof CompactSocialLinks> = {
 
 export const OnlyGitHub: StoryObj<typeof CompactSocialLinks> = {
   args: {
-    gitHubHandle: 'Tito-Kati',
+    gitHubHandle: 'antonio-gg-dev',
   },
 }
 

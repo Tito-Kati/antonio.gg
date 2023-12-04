@@ -23,7 +23,7 @@ I explore 3D printing, merging creativity and technical skills.
 - [antonio.gonzalez.gea@gmail.com][mailto]
 - [antonio.gg][home-page]
 - [linkedin.com/in/antonio-gonzalez-gea][linkedin]
-- [github.com/Tito-Kati][github]
+- [github.com/antonio-gg-dev][github]
 - [printables.com/@Katarn][printables]
 
 </template>
@@ -87,7 +87,7 @@ Project carried out solo from the conception of the idea to its publication.
 It has an average of 100 daily players.
 
 - [huezzle.antonio.gg][huezzle] _(play now)_
-- [github.com/Tito-Kati/Huezzle](https://github.com/Tito-Kati/Huezzle) _(source code)_
+- [github.com/antonio-gg-dev/Huezzle](https://github.com/antonio-gg-dev/Huezzle) _(source code)_
 - [twitter.com/huezzle](https://twitter.com/huezzle) _(official account)_
 
 ### Gacela
@@ -196,7 +196,7 @@ I actively contribute to Gacela, especially in the development of its routing mo
 [mailto]: mailto:antonio.gonzalez.gea@gmail.com
 [home-page]: https://antonio.gg/
 [linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
-[github]: https://github.com/Tito-Kati/
+[github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
 [zapp-studio]: https://zapp-studio.com/
 [huezzle]: https://huezzle.antonio.gg/

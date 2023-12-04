@@ -23,7 +23,7 @@ Exploro la impresión 3D, fusionando creatividad y habilidades técnicas.
 - [antonio.gonzalez.gea@gmail.com][mailto]
 - [antonio.gg][home-page]
 - [linkedin.com/in/antonio-gonzalez-gea][linkedin]
-- [github.com/Tito-Kati][github]
+- [github.com/antonio-gg-dev][github]
 - [printables.com/@Katarn][printables]
 
 </template>
@@ -87,7 +87,7 @@ Proyecto realizado en solitario desde la concepción de la idea hasta la publica
 Cuenta con una media de 100 jugadores diarios.
 
 - [huezzle.antonio.gg][huezzle] _(juega ahora)_
-- [github.com/Tito-Kati/Huezzle](https://github.com/Tito-Kati/Huezzle) _(código fuente)_
+- [github.com/antonio-gg-dev/Huezzle](https://github.com/antonio-gg-dev/Huezzle) _(código fuente)_
 - [twitter.com/huezzle](https://twitter.com/huezzle) _(cuenta oficial de X)_
 
 ### Gacela
@@ -196,7 +196,7 @@ Contribuyo activamente en Gacela, especialmente en el desarrollo de su módulo d
 [mailto]: mailto:antonio.gonzalez.gea@gmail.com
 [home-page]: https://antonio.gg/
 [linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
-[github]: https://github.com/Tito-Kati/
+[github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
 [zapp-studio]: https://zapp-studio.com/
 [huezzle]: https://huezzle.antonio.gg/

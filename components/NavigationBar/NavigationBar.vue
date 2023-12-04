@@ -21,7 +21,7 @@
         class="navigation-bar__social-links"
         linked-in-handle="antonio-gonzalez-gea"
         x-handle="antonio_gg_dev"
-        git-hub-handle="Tito-Kati"
+        git-hub-handle="antonio-gg-dev"
         printables-handle="Katarn"
       />
     </div>

@@ -1,7 +1,7 @@
 {
   "name": "antonio.gg",
   "description": "My professional software development and 3D printing portfolio.",
-  "repository": "git@github.com:Tito-Kati/antonio.gg.git",
+  "repository": "git@github.com:antonio-gg-dev/antonio.gg.git",
   "author": "Antonio Gonzalez Gea <katarn@katarn.es>",
   "license": "MIT",
   "type": "module",
