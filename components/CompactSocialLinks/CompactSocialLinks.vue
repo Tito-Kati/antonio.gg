@@ -108,7 +108,7 @@ export default defineComponent({
   }
 
   &__icon {
-    @apply block h-4 w-4 object-contain object-center align-text-top opacity-75 transition-opacity;
+    @apply m-0 block h-4 w-4 object-contain object-center align-text-top opacity-75 transition-opacity;
 
     #{$p}__link:hover & {
       @apply opacity-100;

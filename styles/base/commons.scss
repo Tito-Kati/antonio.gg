@@ -12,6 +12,10 @@ p {
   @apply my-8;
 }
 
+img {
+  @apply my-8;
+}
+
 blockquote {
   @apply my-8 border-primary-500/25 bg-black/25 py-2 pl-4 pr-6 backdrop-blur-sm;
   border-left-width: theme('spacing.2');

@@ -95,7 +95,7 @@ export default defineComponent({})
   }
 
   &__profile {
-    @apply mx-auto mt-8 w-52 justify-self-center rounded-full;
+    @apply mx-auto w-52 justify-self-center rounded-full;
 
     @screen lg {
       @apply w-40;

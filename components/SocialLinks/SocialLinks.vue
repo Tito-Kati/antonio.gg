@@ -160,7 +160,7 @@ export default defineComponent({
   }
 
   &__icon {
-    @apply mr-1 inline-block h-4 align-text-top opacity-75 transition-opacity;
+    @apply m-0 mr-1 inline-block h-4 align-text-top opacity-75 transition-opacity;
     vertical-align: -0.125rem;
 
     #{$p}__link:hover & {

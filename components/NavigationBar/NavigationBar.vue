@@ -58,7 +58,7 @@ export default defineComponent({
   }
 
   &__image {
-    @apply h-8 rounded-full transition-opacity;
+    @apply m-0 h-8 rounded-full transition-opacity;
 
     #{$p}__home-link:hover & {
       @apply opacity-75;
