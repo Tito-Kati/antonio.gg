@@ -21,7 +21,7 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
 
 <SocialLinks
   linked-in-handle="antonio-gonzalez-gea"
-  x-handle="Tito_Kati"
+  x-handle="antonio_gg_dev"
   git-hub-handle="Tito-Kati"
   printables-handle="Katarn"
 />

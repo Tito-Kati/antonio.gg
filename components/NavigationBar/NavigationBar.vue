@@ -20,7 +20,7 @@
       <CompactSocialLinks
         class="navigation-bar__social-links"
         linked-in-handle="antonio-gonzalez-gea"
-        x-handle="Tito_Kati"
+        x-handle="antonio_gg_dev"
         git-hub-handle="Tito-Kati"
         printables-handle="Katarn"
       />
