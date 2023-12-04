@@ -20,7 +20,7 @@ I explore 3D printing, merging creativity and technical skills.
 
 ## Contact
 
-- [antonio.gonzalez.gea@gmail.com][mailto]
+- [dev@antonio.gg][mailto]
 - [antonio.gg][home-page]
 - [linkedin.com/in/antonio-gonzalez-gea][linkedin]
 - [github.com/antonio-gg-dev][github]
@@ -193,7 +193,7 @@ I actively contribute to Gacela, especially in the development of its routing mo
 </template>
 </CurriculumVitaeLayout>
 
-[mailto]: mailto:antonio.gonzalez.gea@gmail.com
+[mailto]: mailto:dev@antonio.gg
 [home-page]: https://antonio.gg/
 [linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
 [github]: https://github.com/antonio-gg-dev/

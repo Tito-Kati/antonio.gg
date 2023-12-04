@@ -20,7 +20,7 @@ Exploro la impresión 3D, fusionando creatividad y habilidades técnicas.
 
 ## Contacto
 
-- [antonio.gonzalez.gea@gmail.com][mailto]
+- [dev@antonio.gg][mailto]
 - [antonio.gg][home-page]
 - [linkedin.com/in/antonio-gonzalez-gea][linkedin]
 - [github.com/antonio-gg-dev][github]
@@ -193,7 +193,7 @@ Contribuyo activamente en Gacela, especialmente en el desarrollo de su módulo d
 </template>
 </CurriculumVitaeLayout>
 
-[mailto]: mailto:antonio.gonzalez.gea@gmail.com
+[mailto]: mailto:dev@antonio.gg
 [home-page]: https://antonio.gg/
 [linkedin]: https://www.linkedin.com/in/antonio-gonzalez-gea/
 [github]: https://github.com/antonio-gg-dev/
