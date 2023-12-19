@@ -27,8 +27,8 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
 />
 
 [zapp-studio]: https://zapp-studio.com/
-[huezzle]: https://huezzle.antonio.gg/
-[bashunit]: https://bashunit.typeddevs.com/
+[huezzle]: /projects/huezzle
+[bashunit]: /projects/bashunit
 [gacela]: https://gacela-project.com/
 
 </HomeLayout>
