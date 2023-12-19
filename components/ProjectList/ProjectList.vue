@@ -28,7 +28,10 @@ export default defineComponent({
 .project-list {
   &__container {
     @apply my-8 grid gap-8;
-    grid-template-columns: repeat(auto-fit, minmax(theme('spacing.80'), 1fr));
+
+    @screen sm {
+      grid-template-columns: repeat(auto-fit, minmax(theme('spacing.80'), 1fr));
+    }
   }
 }
 </style>
