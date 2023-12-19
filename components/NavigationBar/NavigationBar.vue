@@ -17,6 +17,10 @@
 
       <div class="navigation-bar__separator"></div>
 
+      <a href="/projects/"> Proyectos </a>
+
+      <div class="navigation-bar__separator navigation-bar__separator--xs-hidden"></div>
+
       <CompactSocialLinks
         class="navigation-bar__social-links"
         linked-in-handle="agg-dev"
@@ -67,10 +71,22 @@ export default defineComponent({
 
   &__separator {
     @apply flex-grow;
+
+    &--xs-hidden {
+      @apply hidden;
+
+      @screen sm {
+        @apply block;
+      }
+    }
   }
 
   &__social-links {
-    @apply -mr-2 flex-nowrap;
+    @apply -mr-2 hidden flex-nowrap;
+
+    @screen sm {
+      @apply flex;
+    }
   }
 }
 </style>
