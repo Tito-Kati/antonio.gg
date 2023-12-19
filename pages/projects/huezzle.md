@@ -1,6 +1,7 @@
 ---
 title: Huezzle
-description: TODO
+description: Juego de puzzles diarios, reordena cromáticamente una cuadrícula de colores,
+  cada día todo el mundo se enfrentará a un mismo reto que se generará proceduralmente.
 created_at: 2023-07-01
 cover_url: /images/projects/huezzle.png
 cover_alt: Imagen de portada de Huezzle en la que se ve un puzzle resuelto de tonos purpuras y naranjas

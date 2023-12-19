@@ -52,7 +52,7 @@ export default defineComponent({
   }
 
   &__description {
-    @apply mx-8;
+    @apply mx-8 font-normal;
   }
 }
 </style>
