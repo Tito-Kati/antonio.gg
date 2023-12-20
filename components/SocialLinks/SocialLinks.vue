@@ -9,7 +9,7 @@
       <img
         class="social-links__icon"
         :src="customImage"
-        alt=""
+        :alt="customLabel"
       />
       {{ customLabel }}
     </a>
@@ -23,7 +23,7 @@
       <img
         class="social-links__icon"
         src="/images/linkedin.svg"
-        alt=""
+        alt="LinkedIn"
       />
       LinkedIn
     </a>
@@ -37,7 +37,7 @@
       <img
         class="social-links__icon"
         src="/images/x-twitter.svg"
-        alt=""
+        alt="X"
       />
       X
     </a>
@@ -51,7 +51,7 @@
       <img
         class="social-links__icon"
         src="/images/github.svg"
-        alt=""
+        alt="GitHub"
       />
       GitHub
     </a>
@@ -65,7 +65,7 @@
       <img
         class="social-links__icon"
         src="/images/printables.svg"
-        alt=""
+        alt="Printables"
       />
       Printables
     </a>
@@ -79,7 +79,7 @@
       <img
         class="social-links__icon"
         src="/images/printables.svg"
-        alt=""
+        alt="Printables"
       />
       Printables
     </a>

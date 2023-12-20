@@ -10,7 +10,7 @@
       <img
         class="compact-social-links__icon"
         src="/images/linkedin.svg"
-        alt=""
+        alt="LinkedIn"
       />
     </a>
 
@@ -24,7 +24,7 @@
       <img
         class="compact-social-links__icon"
         src="/images/x-twitter.svg"
-        alt=""
+        alt="X"
       />
     </a>
 
@@ -38,7 +38,7 @@
       <img
         class="compact-social-links__icon"
         src="/images/github.svg"
-        alt=""
+        alt="GitHub"
       />
     </a>
 
@@ -52,7 +52,7 @@
       <img
         class="compact-social-links__icon"
         src="/images/printables.svg"
-        alt=""
+        alt="Printables"
       />
     </a>
   </div>
