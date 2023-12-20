@@ -4,10 +4,10 @@ import path from 'path'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   // Site Metadata
-  title: 'Antonio Gonzalez Gea - Desarrollador Full Stack',
+  title: 'Antonio Gonzalez Gea',
   description:
-    'Portfolio de Antonio Gonzalez Gea, desarrollador full stack y aficionado a la impresión 3D. Mi trayectoria' +
-    ' profesional en desarrollo, mis creaciones en impresión 3D y otros hobbies que inspiran mi trabajo.',
+    'Portfolio de Antonio González Gea, desarrollador full stack y entusiasta de la impresión 3D.' +
+    ' Explora mi carrera y proyectos.',
   lang: 'es',
   head: [
     [

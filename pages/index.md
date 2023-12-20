@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'Desarrollador Full Stack'
 ---
 
 <HomeLayout>
