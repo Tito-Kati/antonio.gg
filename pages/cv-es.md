@@ -199,9 +199,9 @@ Contribuyo activamente en Gacela, especialmente en el desarrollo de su módulo d
 [github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
 [zapp-studio]: https://zapp-studio.com/
-[huezzle]: https://huezzle.antonio.gg/
-[bashunit]: https://bashunit.typeddevs.com/
-[gacela]: https://gacela-project.com/
+[huezzle]: /projects/huezzle
+[bashunit]: /projects/bashunit
+[gacela]: /projects/gacela-project
 [leverade]: https://leverade.com/
 [convega]: https://www.convega.com/
 
