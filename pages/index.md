@@ -6,7 +6,7 @@ title: 'Desarrollador Full Stack'
 
 # Antonio Gonzalez Gea
 
-- Frontend Lead en [Zapp Studio][zapp-studio]
+- Software Crafter & Founder @ [TypedDevs][typeddevs]
 - Creador de [Huezzle][huezzle]
 - Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
 
@@ -26,7 +26,7 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
   printables-handle="Katarn"
 />
 
-[zapp-studio]: https://zapp-studio.com/
+[typeddevs]: https://typeddevs.com/
 [huezzle]: /projects/huezzle
 [bashunit]: /projects/bashunit
 [gacela]: /projects/gacela-project

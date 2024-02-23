@@ -7,7 +7,7 @@ title: Curriculum Vitae
 
 # Antonio Gonzalez Gea
 
-- Frontend Lead at [Zapp Studio][zapp-studio]
+- Software Crafter & Founder @ [TypedDevs][typeddevs]
 - Creator of [Huezzle][huezzle]
 - Active Contributor to [bashunit][bashunit] and [Gacela][gacela]
 
@@ -30,6 +30,12 @@ I explore 3D printing, merging creativity and technical skills.
 <template #experience>
 
 ## Experience
+
+### Co-Founder _- [TypedDevs][typeddevs]_
+
+November 2023 - Actualidad
+
+- Full involvement from conceptualization to realization of [bashunit][bashunit] and [Flagppe][flagppe].
 
 ### Frontend Lead _- [Zapp Studio][zapp-studio]_
 
@@ -167,8 +173,9 @@ I actively contribute to Gacela, especially in the development of its routing mo
 - Node.js
 - Nuxt.js
 - PHP
-- PhpStorm
 - PHPUnit
+- PhpStorm
+- PostgreSQL
 - Project Management
 - Prusa
 - PrusaSlicer
@@ -198,10 +205,12 @@ I actively contribute to Gacela, especially in the development of its routing mo
 [linkedin]: https://www.linkedin.com/in/agg-dev/
 [github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
-[zapp-studio]: https://zapp-studio.com/
+[typeddevs]: https://typeddevs.com/
 [huezzle]: /projects/huezzle
 [bashunit]: /projects/bashunit
+[flagppe]: https://flagppe.com/
 [gacela]: /projects/gacela-project
+[zapp-studio]: https://zapp-studio.com/
 [leverade]: https://leverade.com/
 [convega]: https://www.convega.com/
 
