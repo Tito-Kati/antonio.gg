@@ -21,7 +21,8 @@
     "pre-commit": "npm run sa && npm run lint && npm run format && npm run build",
     "pre-commit:install": "echo 'npm run pre-commit' > .git/hooks/pre-commit && chmod u+x .git/hooks/pre-commit",
     "pre-push": "npm run stories:publish",
-    "pre-push:install": "echo 'npm run pre-push' > .git/hooks/pre-push && chmod u+x .git/hooks/pre-push"
+    "pre-push:install": "echo 'npm run pre-push' > .git/hooks/pre-push && chmod u+x .git/hooks/pre-push",
+    "postinstall": "npm run pre-commit:install && npm run pre-push:install"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.6.16",
