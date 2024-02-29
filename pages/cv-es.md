@@ -41,10 +41,11 @@ Noviembre 2023 - Actualidad
 
 Abril 2023 - Febrero 2024 _(11 meses)_
 
-- Desarrollo integral de múltiples aplicaciones web, aplicando metodologías como TDD, DDD y Arquitectura Hexagonal,
-  y utilizando tecnologías como TypeScript, Sass, Vue.js, Angular y Node.js entre muchas otras.
-- Mentoría a los equipos de desarrollo en buenas prácticas de desarrollo de software y principios SOLID,
-  fomentando la calidad y eficiencia del código.
+- Mentoría a los equipos de desarrollo en XP y principios SOLID, fomentando la calidad y eficiencia del código.
+  Desarrollo integral de múltiples aplicaciones web de alta calidad, aplicando metodologías como TDD, DDD y Arquitectura
+  Hexagonal, y utilizando tecnologías como TypeScript, SASS, Vue.js, Angular y Node.js entre muchas otras, con cobertura
+  total de tests usando Cypress para tests de aceptación, Storybook y Chromatic para tests visuales, y Jest o Vitest
+  para tests unitarios y de integración.
 
 ### CTO _- [LEVERADE][leverade]_
 
@@ -55,7 +56,8 @@ Mayo 2015 - Abril 2023 _(8 años)_
 - Migración de todos los servicios a un sistema redistribuido, con alta disponibilidad y escalabilidad horizontal.
 - Diseño y desarrollo del API Rest de gestión federativa con la que se integran webs y plataformas de cientos de
   clientes y colaboradores.
-- Diseño y desarrollo de múltiples PWA con tecnologías como TypeScript, TailwindCSS, React.js y Vue.js.
+- Diseño y desarrollo de múltiples PWAs para distintos roles dentro del ámbito deportivo, usando el API anteriormente
+  mencionada, con tecnologías como TypeScript, TailwindCSS, React.js y Vue.js.
 
 ### Software Developer _- [LEVERADE][leverade]_
 

@@ -41,21 +41,23 @@ November 2023 - Actualidad
 
 April 2023 - Present _(8 months)_
 
-- Comprehensive development of multiple web applications, applying methodologies such as TDD, DDD, and Hexagonal
-  Architecture, and using technologies like TypeScript, Sass, Vue.js, Angular, and Node.js among many others.
-- Mentoring development teams in good software development practices and SOLID principles,
-  fostering code quality and efficiency.
+- Mentoring development teams in XP and SOLID principles, fostering code quality and efficiency.
+- Comprehensive development of multiple high quality web applications, applying methodologies such as TDD, DDD, and
+  Hexagonal Architecture, and using technologies like TypeScript, SASS, Vue.js, Angular, and Node.js among many others,
+  with full test coverage using Cypress for acceptance tests, Storybook and Chromatic for visual tests, and Jest or
+  Vitest for unit and integration tests.
 
 ### CTO _- [LEVERADE][leverade]_
 
 May 2015 - April 2023 _(8 years)_
 
-- Leading the development and product team in new best practices and methodologies including
-  TDD, XP, Scrum, SOLID, Hexagonal Architecture, DDD, and CQRS.
+- Leading the development and product team in new best practices and methodologies including TDD, XP, Scrum, SOLID,
+  Hexagonal Architecture, DDD, and CQRS.
 - Migration of all services to a distributed system, with high availability and horizontal scalability.
 - Design and development of the federative management REST API integrated with websites and platforms of hundreds of
   clients and collaborators.
-- Design and development of multiple PWAs using technologies like TypeScript, TailwindCSS, React.js, and Vue.js.
+- Designing and developing of multiple PWAs for different roles within the sports sector, using the previously mentioned
+  API, with technologies such as TypeScript, TailwindCSS, React.js, and Vue.js.
 
 ### Software Developer _- [LEVERADE][leverade]_
 
