@@ -85,6 +85,11 @@ jobs:
         run: npm run stories:publish -- --ci --project-token=${{ secrets.CHROMATIC_PROJECT_TOKEN }}
 
   publish:
+    needs:
+      - static-analysis
+      - lint
+      - format
+      - stories
     runs-on: ubuntu-latest
     permissions:
       contents: read
