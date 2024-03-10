@@ -33,13 +33,13 @@ I explore 3D printing, merging creativity and technical skills.
 
 ### Co-Founder _- [TypedDevs][typeddevs]_
 
-November 2023 - Actualidad
+November 2023 - Present
 
 - Full involvement from conceptualization to realization of [bashunit][bashunit] and [Flagppe][flagppe].
 
 ### Frontend Lead _- [Zapp Studio][zapp-studio]_
 
-April 2023 - Present _(8 months)_
+April 2023 - February 2024 _(11 months)_
 
 - Mentoring development teams in XP and SOLID principles, fostering code quality and efficiency.
 - Comprehensive development of multiple high quality web applications, applying methodologies such as TDD, DDD, and

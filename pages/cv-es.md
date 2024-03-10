@@ -42,9 +42,9 @@ Noviembre 2023 - Actualidad
 Abril 2023 - Febrero 2024 _(11 meses)_
 
 - Mentoría a los equipos de desarrollo en XP y principios SOLID, fomentando la calidad y eficiencia del código.
-  Desarrollo integral de múltiples aplicaciones web de alta calidad, aplicando metodologías como TDD, DDD y Arquitectura
+- Desarrollo integral de múltiples aplicaciones web de alta calidad, aplicando metodologías como TDD, DDD y Arquitectura
   Hexagonal, y utilizando tecnologías como TypeScript, SASS, Vue.js, Angular y Node.js entre muchas otras, con cobertura
-  total de tests usando Cypress para tests de aceptación, Storybook y Chromatic para tests visuales, y Jest o Vitest
+  total de tests usando Cypress para testsś de aceptación, Storybook y Chromatic para tests visuales, y Jest o Vitest
   para tests unitarios y de integración.
 
 ### CTO _- [LEVERADE][leverade]_
