@@ -16,7 +16,7 @@ Desde los 14 años, la programación y la informática han sido mi foco y mi pas
 Soy entusiasta del aprendizaje continuo y me gusta compartir con otros mis conocimientos sobre buenas prácticas,
 metodologías y otros aspectos útiles en el ámbito laboral.
 
-Fuera del trabajo, exploro la impresión 3D, combinando creatividad con habilidades técnicas.
+Fuera del trabajo, también exploro la impresión 3D, combinando creatividad con habilidades técnicas.
 Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y personal.
 
 <SocialLinks
