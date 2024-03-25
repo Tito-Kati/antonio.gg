@@ -9,7 +9,7 @@ export interface Project {
   coverAlt: string
 }
 
-export default createContentLoader<Project[]>('pages/projects/*.md', {
+export default createContentLoader<Project[]>('./projects/*.md', {
   transform(projects) {
     return projects
       .filter((project) => project.url !== '/projects/')
