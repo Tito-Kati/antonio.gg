@@ -20,7 +20,7 @@ export default {
   },
 } satisfies Meta<typeof ProjectCard>
 
-export const bashunit: StoryObj<typeof ProjectCard> = {
+export const Bashunit: StoryObj<typeof ProjectCard> = {
   args: {
     project: {
       url: '#bashunit',
