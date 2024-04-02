@@ -27,11 +27,8 @@ body {
 
   &::after {
     @apply fixed inset-0 z-body-background-before block bg-top;
-    background-image: linear-gradient(theme('colors.black/0.25'), theme('colors.black/0'), theme('colors.black/0.25')),
-      radial-gradient(circle, theme('colors.black/0'), theme('colors.black/0.75'));
-    background-size:
-      100% theme('spacing.1'),
-      100% 100%;
+    background-image: radial-gradient(circle, theme('colors.black/0'), theme('colors.black/0.5'));
+    background-size: 100% 100%;
     content: '';
 
     @media print {
