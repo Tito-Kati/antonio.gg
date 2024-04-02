@@ -30,9 +30,9 @@ por cuatro cuadrados iguales, conectados entre sí de forma ortogonal.
 A cada tetrominó se le conoce con una letra, que es la que más recuerda a su forma, puedes utilizar estos nombres en tu
 código.
 
-|           I           |           O           |           T           |           J           |           L           |           S           |           Z           |
-| :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: | :-------------------: |
-| ![][i-img]{class=m-0} | ![][o-img]{class=m-0} | ![][t-img]{class=m-0} | ![][j-img]{class=m-0} | ![][l-img]{class=m-0} | ![][s-img]{class=m-0} | ![][z-img]{class=m-0} |
+|            I             |            O             |            T             |            J             |            L             |            S             |            Z             |
+| :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: | :----------------------: |
+| ![][i-img]{class=m-auto} | ![][o-img]{class=m-auto} | ![][t-img]{class=m-auto} | ![][j-img]{class=m-auto} | ![][l-img]{class=m-auto} | ![][s-img]{class=m-auto} | ![][z-img]{class=m-auto} |
 
 ## Ejemplos
 
