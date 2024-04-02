@@ -14,11 +14,11 @@ requisitos y una aplicación meticulosa del TDD, podemos abordar con éxito desa
 
 ## Instrucciones
 
-Queremos una función o método que dado un [tetrominó][tetromino-wiki], sea capaz de obtener su forma rotada 90 grados.
+Queremos dado un [tetrominó][tetromino-wiki] obtener su forma girada 90 grados.
 
-- Serán dos funciones o métodos, una nos permitirá rotar el tetrominó hacia la derecha (dirección a las agujas del
-  reloj) y la otra nos permitirá rotarlo hacia la izquierda (dirección opuesta a las agujas del reloj).
-- Las funciónes o métodos recibirán un tetrominó como argumento y devolverán el tetrominó rotado como respuesta.
+- Serán dos funciones o métodos, una nos permitirá girar el tetrominó hacia la derecha (dirección a las agujas del
+  reloj) y la otra nos permitirá girarlo hacia la izquierda (dirección opuesta a las agujas del reloj).
+- Las funciónes o métodos recibirán un tetrominó como argumento y devolverán el tetrominó girado como respuesta.
 - Puedes representar un tetrominó de la forma que quieras, por ejemplo con un string, una matriz de booleanos, un VO...
 - Necesitaremos alguna forma sencilla para crear cualquiera de los distintos tetrominós que existen.
 
@@ -36,21 +36,21 @@ código.
 
 ## Ejemplos
 
-- Rotamos el tetrominó T a la izquierda:
+- Giramos el tetrominó T a la izquierda:
   ```
   Input:        Output:
    #             #
   ###           ##
                  #
   ```
-- Rotamos el tetrominó Z a la derecha
+- Giramos el tetrominó Z a la derecha
   ```
   Input:        Output:
   ##             #
    ##           ##
                 #
   ```
-- Rotamos el tetrominó L dos veces a la izquierda
+- Giramos el tetrominó L **dos** veces a la izquierda
   ```
   Input:        Output:
   #             ##
