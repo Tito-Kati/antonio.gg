@@ -1,6 +1,8 @@
 # Welcome to antonio.gg!
 
-<img src="public/images/profile.jpg" alt="Antonio's profile image" style="border-radius:100%; max-width: 10rem; margin: auto;">
+<p align="center">
+  <img src="public/images/profile-small.png" alt="Antonio's profile image">
+</p>
 
 This repository showcases my journey in software development and 3D printing. This project is not just a display of my
 work; it's a platform where I enjoy teaching and sharing the knowledge and creations I've accumulated over time.
