@@ -7,7 +7,7 @@ title: Curriculum Vitae
 
 # Antonio Gonzalez Gea
 
-- Software Crafter & Founder @ [TypedDevs][typeddevs]
+- Product Engineer @ [OncologyPipeline][oncology-pipeline] & [TypedDevs][typeddevs]
 - Creator of [Huezzle][huezzle]
 - Active Contributor to [bashunit][bashunit] and [Gacela][gacela]
 
@@ -31,7 +31,11 @@ I explore 3D printing, merging creativity and technical skills.
 
 ## Experience
 
-### Co-Founder _- [TypedDevs][typeddevs]_
+### Product Engineer _- [OncologyPipeline][oncology-pipeline]_
+
+May 2024 - Present
+
+### Product Engineer _- [TypedDevs][typeddevs]_
 
 November 2023 - Present
 
@@ -85,6 +89,13 @@ I actively contribute to the planning, documentation, and development of the pro
 - [bashunit.typeddevs.com][bashunit] _(documentation)_
 - [github.com/TypedDevs/bashunit](https://github.com/TypedDevs/bashunit) _(source code)_
 - [twitter.com/bashunit](https://twitter.com/bashunit) _(official account)_
+
+### Captura Ternura
+
+Website for Captura Ternura photography studio. The site includes a gallery showcasing the studio's quality and reviews
+from satisfied clients, both obtained through integrations with social media platforms like Google and Instagram.
+
+- [capturaternura.com][captura-ternura] _(website)_
 
 ### Huezzle
 
@@ -207,9 +218,11 @@ I actively contribute to Gacela, especially in the development of its routing mo
 [linkedin]: https://www.linkedin.com/in/agg-dev/
 [github]: https://github.com/antonio-gg-dev/
 [printables]: https://www.printables.com/@Katarn
+[oncology-pipeline]: https://www.oncologypipeline.com/
 [typeddevs]: https://typeddevs.com/
 [huezzle]: /projects/huezzle
 [bashunit]: /projects/bashunit
+[captura-ternura]: https://capturaternura.com/
 [flagppe]: https://flagppe.com/
 [gacela]: /projects/gacela-project
 [zapp-studio]: https://zapp-studio.com/
