@@ -6,7 +6,7 @@ title: 'Desarrollador Full Stack'
 
 # Antonio Gonzalez Gea
 
-- Product Engineer @ [OncologyPipeline][oncology-pipeline] & [TypedDevs][typeddevs]
+- Product Engineer @ [TypedDevs][typeddevs]
 - Creador de [Huezzle][huezzle]
 - Contribuidor activo en [bashunit][bashunit] y [Gacela][gacela]
 
@@ -26,7 +26,6 @@ Me esfuerzo por mantener un equilibrio saludable entre mi vida profesional y per
   printables-handle="Katarn"
 />
 
-[oncology-pipeline]: https://www.oncologypipeline.com/
 [typeddevs]: https://typeddevs.com/
 [huezzle]: /projects/huezzle
 [bashunit]: /projects/bashunit

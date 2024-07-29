@@ -7,7 +7,7 @@ title: Curriculum Vitae
 
 # Antonio Gonzalez Gea
 
-- Product Engineer @ [OncologyPipeline][oncology-pipeline] & [TypedDevs][typeddevs]
+- Product Engineer @ [TypedDevs][typeddevs]
 - Creator of [Huezzle][huezzle]
 - Active Contributor to [bashunit][bashunit] and [Gacela][gacela]
 
