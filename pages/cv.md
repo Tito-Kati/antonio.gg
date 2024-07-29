@@ -31,15 +31,19 @@ I explore 3D printing, merging creativity and technical skills.
 
 ## Experience
 
-### Product Engineer _- [OncologyPipeline][oncology-pipeline]_
-
-May 2024 - Present
-
 ### Product Engineer _- [TypedDevs][typeddevs]_
 
 November 2023 - Present
 
 - Full involvement from conceptualization to realization of [bashunit][bashunit] and [Flagppe][flagppe].
+
+### Product Engineer _- [OncologyPipeline][oncology-pipeline]_
+
+May 2024 - July 2024 _(3 months)_
+
+- Mentoring the development team in XP, TDD, and Hexagonal Architecture, promoting code quality and efficiency, as well
+  as platform scalability.
+- Planning and implementing Continuous Integration across all platform projects, as well as test automation.
 
 ### Frontend Lead _- [Zapp Studio][zapp-studio]_
 
