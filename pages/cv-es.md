@@ -77,7 +77,7 @@ Marzo 2014 - Mayo 2015 _(1 año)_
 
 ### Software Developer _- [Convega][convega]_
 
-Marzo 2014 - Mayo 2015 _(1 año)_
+Marzo 2011 - Agosto 2011 _(6 meses)_
 
 - Migración de varias webs para el cumplimiento de las Web Content Accessibility Guidelines.
 
